@@ -75,16 +75,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="leaguetable.Designer.vb">
-      <DependentUpon>leaguetable.vb</DependentUpon>
-    </Compile>
-    <Compile Include="leaguetable.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="leaguecreation.Designer.vb">
       <DependentUpon>leaguecreation.vb</DependentUpon>
     </Compile>
     <Compile Include="leaguecreation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leaguetable.Designer.vb">
+      <DependentUpon>leaguetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="leaguetable.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="loading0.Designer.vb">

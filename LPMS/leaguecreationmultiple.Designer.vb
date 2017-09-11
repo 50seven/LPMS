@@ -77,26 +77,26 @@ Partial Class leaguecreation
         Me.scr_teamrank10 = New System.Windows.Forms.HScrollBar()
         Me.scr_teamrank20 = New System.Windows.Forms.HScrollBar()
         Me.scr_teamrank19 = New System.Windows.Forms.HScrollBar()
-        Me.tbx_rankteam1 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam2 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam3 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam4 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam5 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam6 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam7 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam8 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam9 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam10 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam11 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam12 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam13 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam14 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam15 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam16 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam17 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam18 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam19 = New System.Windows.Forms.TextBox()
-        Me.tbx_rankteam20 = New System.Windows.Forms.TextBox()
+        Me.lbl_rankteam1 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam2 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam3 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam6 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam5 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam4 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam9 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam8 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam7 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam18 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam17 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam16 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam15 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam14 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam13 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam12 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam11 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam10 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam20 = New System.Windows.Forms.Label()
+        Me.lbl_rankteam19 = New System.Windows.Forms.Label()
         Me.mns_topmenu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -191,7 +191,7 @@ Partial Class leaguecreation
         '
         Me.lbl_displayedleaguename.AutoSize = True
         Me.lbl_displayedleaguename.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_displayedleaguename.Location = New System.Drawing.Point(22, 77)
+        Me.lbl_displayedleaguename.Location = New System.Drawing.Point(258, 70)
         Me.lbl_displayedleaguename.Name = "lbl_displayedleaguename"
         Me.lbl_displayedleaguename.Size = New System.Drawing.Size(0, 51)
         Me.lbl_displayedleaguename.TabIndex = 12
@@ -536,171 +536,231 @@ Partial Class leaguecreation
         Me.scr_teamrank19.Size = New System.Drawing.Size(168, 21)
         Me.scr_teamrank19.TabIndex = 108
         '
-        'tbx_rankteam1
+        'lbl_rankteam1
         '
-        Me.tbx_rankteam1.Location = New System.Drawing.Point(1223, 44)
-        Me.tbx_rankteam1.Name = "tbx_rankteam1"
-        Me.tbx_rankteam1.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam1.TabIndex = 110
+        Me.lbl_rankteam1.AutoSize = True
+        Me.lbl_rankteam1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam1.Location = New System.Drawing.Point(1221, 45)
+        Me.lbl_rankteam1.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam1.Name = "lbl_rankteam1"
+        Me.lbl_rankteam1.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam1.TabIndex = 114
         '
-        'tbx_rankteam2
+        'lbl_rankteam2
         '
-        Me.tbx_rankteam2.Location = New System.Drawing.Point(1223, 72)
-        Me.tbx_rankteam2.Name = "tbx_rankteam2"
-        Me.tbx_rankteam2.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam2.TabIndex = 111
+        Me.lbl_rankteam2.AutoSize = True
+        Me.lbl_rankteam2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam2.Location = New System.Drawing.Point(1221, 73)
+        Me.lbl_rankteam2.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam2.Name = "lbl_rankteam2"
+        Me.lbl_rankteam2.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam2.TabIndex = 115
         '
-        'tbx_rankteam3
+        'lbl_rankteam3
         '
-        Me.tbx_rankteam3.Location = New System.Drawing.Point(1224, 103)
-        Me.tbx_rankteam3.Name = "tbx_rankteam3"
-        Me.tbx_rankteam3.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam3.TabIndex = 112
+        Me.lbl_rankteam3.AutoSize = True
+        Me.lbl_rankteam3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam3.Location = New System.Drawing.Point(1221, 102)
+        Me.lbl_rankteam3.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam3.Name = "lbl_rankteam3"
+        Me.lbl_rankteam3.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam3.TabIndex = 116
         '
-        'tbx_rankteam4
+        'lbl_rankteam6
         '
-        Me.tbx_rankteam4.Location = New System.Drawing.Point(1224, 131)
-        Me.tbx_rankteam4.Name = "tbx_rankteam4"
-        Me.tbx_rankteam4.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam4.TabIndex = 113
+        Me.lbl_rankteam6.AutoSize = True
+        Me.lbl_rankteam6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam6.Location = New System.Drawing.Point(1221, 188)
+        Me.lbl_rankteam6.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam6.Name = "lbl_rankteam6"
+        Me.lbl_rankteam6.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam6.TabIndex = 119
         '
-        'tbx_rankteam5
+        'lbl_rankteam5
         '
-        Me.tbx_rankteam5.Location = New System.Drawing.Point(1223, 159)
-        Me.tbx_rankteam5.Name = "tbx_rankteam5"
-        Me.tbx_rankteam5.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam5.TabIndex = 114
+        Me.lbl_rankteam5.AutoSize = True
+        Me.lbl_rankteam5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam5.Location = New System.Drawing.Point(1221, 159)
+        Me.lbl_rankteam5.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam5.Name = "lbl_rankteam5"
+        Me.lbl_rankteam5.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam5.TabIndex = 118
         '
-        'tbx_rankteam6
+        'lbl_rankteam4
         '
-        Me.tbx_rankteam6.Location = New System.Drawing.Point(1224, 186)
-        Me.tbx_rankteam6.Name = "tbx_rankteam6"
-        Me.tbx_rankteam6.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam6.TabIndex = 115
+        Me.lbl_rankteam4.AutoSize = True
+        Me.lbl_rankteam4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam4.Location = New System.Drawing.Point(1221, 131)
+        Me.lbl_rankteam4.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam4.Name = "lbl_rankteam4"
+        Me.lbl_rankteam4.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam4.TabIndex = 117
         '
-        'tbx_rankteam7
+        'lbl_rankteam9
         '
-        Me.tbx_rankteam7.Location = New System.Drawing.Point(1224, 215)
-        Me.tbx_rankteam7.Name = "tbx_rankteam7"
-        Me.tbx_rankteam7.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam7.TabIndex = 116
+        Me.lbl_rankteam9.AutoSize = True
+        Me.lbl_rankteam9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam9.Location = New System.Drawing.Point(1221, 272)
+        Me.lbl_rankteam9.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam9.Name = "lbl_rankteam9"
+        Me.lbl_rankteam9.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam9.TabIndex = 122
         '
-        'tbx_rankteam8
+        'lbl_rankteam8
         '
-        Me.tbx_rankteam8.Location = New System.Drawing.Point(1224, 243)
-        Me.tbx_rankteam8.Name = "tbx_rankteam8"
-        Me.tbx_rankteam8.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam8.TabIndex = 117
+        Me.lbl_rankteam8.AutoSize = True
+        Me.lbl_rankteam8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam8.Location = New System.Drawing.Point(1221, 243)
+        Me.lbl_rankteam8.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam8.Name = "lbl_rankteam8"
+        Me.lbl_rankteam8.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam8.TabIndex = 121
         '
-        'tbx_rankteam9
+        'lbl_rankteam7
         '
-        Me.tbx_rankteam9.Location = New System.Drawing.Point(1224, 271)
-        Me.tbx_rankteam9.Name = "tbx_rankteam9"
-        Me.tbx_rankteam9.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam9.TabIndex = 118
+        Me.lbl_rankteam7.AutoSize = True
+        Me.lbl_rankteam7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam7.Location = New System.Drawing.Point(1221, 215)
+        Me.lbl_rankteam7.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam7.Name = "lbl_rankteam7"
+        Me.lbl_rankteam7.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam7.TabIndex = 120
         '
-        'tbx_rankteam10
+        'lbl_rankteam18
         '
-        Me.tbx_rankteam10.Location = New System.Drawing.Point(1224, 299)
-        Me.tbx_rankteam10.Name = "tbx_rankteam10"
-        Me.tbx_rankteam10.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam10.TabIndex = 119
+        Me.lbl_rankteam18.AutoSize = True
+        Me.lbl_rankteam18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam18.Location = New System.Drawing.Point(1221, 525)
+        Me.lbl_rankteam18.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam18.Name = "lbl_rankteam18"
+        Me.lbl_rankteam18.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam18.TabIndex = 131
         '
-        'tbx_rankteam11
+        'lbl_rankteam17
         '
-        Me.tbx_rankteam11.Location = New System.Drawing.Point(1224, 328)
-        Me.tbx_rankteam11.Name = "tbx_rankteam11"
-        Me.tbx_rankteam11.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam11.TabIndex = 120
+        Me.lbl_rankteam17.AutoSize = True
+        Me.lbl_rankteam17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam17.Location = New System.Drawing.Point(1221, 496)
+        Me.lbl_rankteam17.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam17.Name = "lbl_rankteam17"
+        Me.lbl_rankteam17.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam17.TabIndex = 130
         '
-        'tbx_rankteam12
+        'lbl_rankteam16
         '
-        Me.tbx_rankteam12.Location = New System.Drawing.Point(1224, 357)
-        Me.tbx_rankteam12.Name = "tbx_rankteam12"
-        Me.tbx_rankteam12.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam12.TabIndex = 121
+        Me.lbl_rankteam16.AutoSize = True
+        Me.lbl_rankteam16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam16.Location = New System.Drawing.Point(1221, 468)
+        Me.lbl_rankteam16.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam16.Name = "lbl_rankteam16"
+        Me.lbl_rankteam16.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam16.TabIndex = 129
         '
-        'tbx_rankteam13
+        'lbl_rankteam15
         '
-        Me.tbx_rankteam13.Location = New System.Drawing.Point(1224, 385)
-        Me.tbx_rankteam13.Name = "tbx_rankteam13"
-        Me.tbx_rankteam13.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam13.TabIndex = 122
+        Me.lbl_rankteam15.AutoSize = True
+        Me.lbl_rankteam15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam15.Location = New System.Drawing.Point(1221, 441)
+        Me.lbl_rankteam15.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam15.Name = "lbl_rankteam15"
+        Me.lbl_rankteam15.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam15.TabIndex = 128
         '
-        'tbx_rankteam14
+        'lbl_rankteam14
         '
-        Me.tbx_rankteam14.Location = New System.Drawing.Point(1224, 413)
-        Me.tbx_rankteam14.Name = "tbx_rankteam14"
-        Me.tbx_rankteam14.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam14.TabIndex = 123
+        Me.lbl_rankteam14.AutoSize = True
+        Me.lbl_rankteam14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam14.Location = New System.Drawing.Point(1221, 412)
+        Me.lbl_rankteam14.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam14.Name = "lbl_rankteam14"
+        Me.lbl_rankteam14.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam14.TabIndex = 127
         '
-        'tbx_rankteam15
+        'lbl_rankteam13
         '
-        Me.tbx_rankteam15.Location = New System.Drawing.Point(1224, 441)
-        Me.tbx_rankteam15.Name = "tbx_rankteam15"
-        Me.tbx_rankteam15.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam15.TabIndex = 124
+        Me.lbl_rankteam13.AutoSize = True
+        Me.lbl_rankteam13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam13.Location = New System.Drawing.Point(1221, 384)
+        Me.lbl_rankteam13.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam13.Name = "lbl_rankteam13"
+        Me.lbl_rankteam13.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam13.TabIndex = 126
         '
-        'tbx_rankteam16
+        'lbl_rankteam12
         '
-        Me.tbx_rankteam16.Location = New System.Drawing.Point(1224, 469)
-        Me.tbx_rankteam16.Name = "tbx_rankteam16"
-        Me.tbx_rankteam16.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam16.TabIndex = 125
+        Me.lbl_rankteam12.AutoSize = True
+        Me.lbl_rankteam12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam12.Location = New System.Drawing.Point(1221, 355)
+        Me.lbl_rankteam12.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam12.Name = "lbl_rankteam12"
+        Me.lbl_rankteam12.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam12.TabIndex = 125
         '
-        'tbx_rankteam17
+        'lbl_rankteam11
         '
-        Me.tbx_rankteam17.Location = New System.Drawing.Point(1224, 497)
-        Me.tbx_rankteam17.Name = "tbx_rankteam17"
-        Me.tbx_rankteam17.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam17.TabIndex = 126
+        Me.lbl_rankteam11.AutoSize = True
+        Me.lbl_rankteam11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam11.Location = New System.Drawing.Point(1221, 326)
+        Me.lbl_rankteam11.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam11.Name = "lbl_rankteam11"
+        Me.lbl_rankteam11.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam11.TabIndex = 124
         '
-        'tbx_rankteam18
+        'lbl_rankteam10
         '
-        Me.tbx_rankteam18.Location = New System.Drawing.Point(1224, 525)
-        Me.tbx_rankteam18.Name = "tbx_rankteam18"
-        Me.tbx_rankteam18.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam18.TabIndex = 127
+        Me.lbl_rankteam10.AutoSize = True
+        Me.lbl_rankteam10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam10.Location = New System.Drawing.Point(1221, 298)
+        Me.lbl_rankteam10.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam10.Name = "lbl_rankteam10"
+        Me.lbl_rankteam10.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam10.TabIndex = 123
         '
-        'tbx_rankteam19
+        'lbl_rankteam20
         '
-        Me.tbx_rankteam19.Location = New System.Drawing.Point(1224, 551)
-        Me.tbx_rankteam19.Name = "tbx_rankteam19"
-        Me.tbx_rankteam19.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam19.TabIndex = 128
+        Me.lbl_rankteam20.AutoSize = True
+        Me.lbl_rankteam20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam20.Location = New System.Drawing.Point(1221, 578)
+        Me.lbl_rankteam20.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam20.Name = "lbl_rankteam20"
+        Me.lbl_rankteam20.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam20.TabIndex = 134
         '
-        'tbx_rankteam20
+        'lbl_rankteam19
         '
-        Me.tbx_rankteam20.Location = New System.Drawing.Point(1224, 578)
-        Me.tbx_rankteam20.Name = "tbx_rankteam20"
-        Me.tbx_rankteam20.Size = New System.Drawing.Size(49, 22)
-        Me.tbx_rankteam20.TabIndex = 129
+        Me.lbl_rankteam19.AutoSize = True
+        Me.lbl_rankteam19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lbl_rankteam19.Location = New System.Drawing.Point(1221, 550)
+        Me.lbl_rankteam19.MinimumSize = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam19.Name = "lbl_rankteam19"
+        Me.lbl_rankteam19.Size = New System.Drawing.Size(53, 19)
+        Me.lbl_rankteam19.TabIndex = 133
         '
         'leaguecreation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1365, 786)
-        Me.Controls.Add(Me.tbx_rankteam20)
-        Me.Controls.Add(Me.tbx_rankteam19)
-        Me.Controls.Add(Me.tbx_rankteam18)
-        Me.Controls.Add(Me.tbx_rankteam17)
-        Me.Controls.Add(Me.tbx_rankteam16)
-        Me.Controls.Add(Me.tbx_rankteam15)
-        Me.Controls.Add(Me.tbx_rankteam14)
-        Me.Controls.Add(Me.tbx_rankteam13)
-        Me.Controls.Add(Me.tbx_rankteam12)
-        Me.Controls.Add(Me.tbx_rankteam11)
-        Me.Controls.Add(Me.tbx_rankteam10)
-        Me.Controls.Add(Me.tbx_rankteam9)
-        Me.Controls.Add(Me.tbx_rankteam8)
-        Me.Controls.Add(Me.tbx_rankteam7)
-        Me.Controls.Add(Me.tbx_rankteam6)
-        Me.Controls.Add(Me.tbx_rankteam5)
-        Me.Controls.Add(Me.tbx_rankteam4)
-        Me.Controls.Add(Me.tbx_rankteam3)
-        Me.Controls.Add(Me.tbx_rankteam2)
-        Me.Controls.Add(Me.tbx_rankteam1)
+        Me.Controls.Add(Me.lbl_rankteam20)
+        Me.Controls.Add(Me.lbl_rankteam19)
+        Me.Controls.Add(Me.lbl_rankteam18)
+        Me.Controls.Add(Me.lbl_rankteam17)
+        Me.Controls.Add(Me.lbl_rankteam16)
+        Me.Controls.Add(Me.lbl_rankteam15)
+        Me.Controls.Add(Me.lbl_rankteam14)
+        Me.Controls.Add(Me.lbl_rankteam13)
+        Me.Controls.Add(Me.lbl_rankteam12)
+        Me.Controls.Add(Me.lbl_rankteam11)
+        Me.Controls.Add(Me.lbl_rankteam10)
+        Me.Controls.Add(Me.lbl_rankteam9)
+        Me.Controls.Add(Me.lbl_rankteam8)
+        Me.Controls.Add(Me.lbl_rankteam7)
+        Me.Controls.Add(Me.lbl_rankteam6)
+        Me.Controls.Add(Me.lbl_rankteam5)
+        Me.Controls.Add(Me.lbl_rankteam4)
+        Me.Controls.Add(Me.lbl_rankteam3)
+        Me.Controls.Add(Me.lbl_rankteam2)
+        Me.Controls.Add(Me.lbl_rankteam1)
         Me.Controls.Add(Me.scr_teamrank20)
         Me.Controls.Add(Me.scr_teamrank19)
         Me.Controls.Add(Me.scr_teamrank18)
@@ -814,24 +874,24 @@ Partial Class leaguecreation
     Friend WithEvents scr_teamrank10 As HScrollBar
     Friend WithEvents scr_teamrank20 As HScrollBar
     Friend WithEvents scr_teamrank19 As HScrollBar
-    Friend WithEvents tbx_rankteam1 As TextBox
-    Friend WithEvents tbx_rankteam2 As TextBox
-    Friend WithEvents tbx_rankteam3 As TextBox
-    Friend WithEvents tbx_rankteam4 As TextBox
-    Friend WithEvents tbx_rankteam5 As TextBox
-    Friend WithEvents tbx_rankteam6 As TextBox
-    Friend WithEvents tbx_rankteam7 As TextBox
-    Friend WithEvents tbx_rankteam8 As TextBox
-    Friend WithEvents tbx_rankteam9 As TextBox
-    Friend WithEvents tbx_rankteam10 As TextBox
-    Friend WithEvents tbx_rankteam11 As TextBox
-    Friend WithEvents tbx_rankteam12 As TextBox
-    Friend WithEvents tbx_rankteam13 As TextBox
-    Friend WithEvents tbx_rankteam14 As TextBox
-    Friend WithEvents tbx_rankteam15 As TextBox
-    Friend WithEvents tbx_rankteam16 As TextBox
-    Friend WithEvents tbx_rankteam17 As TextBox
-    Friend WithEvents tbx_rankteam18 As TextBox
-    Friend WithEvents tbx_rankteam19 As TextBox
-    Friend WithEvents tbx_rankteam20 As TextBox
+    Friend WithEvents lbl_rankteam1 As Label
+    Friend WithEvents lbl_rankteam2 As Label
+    Friend WithEvents lbl_rankteam3 As Label
+    Friend WithEvents lbl_rankteam6 As Label
+    Friend WithEvents lbl_rankteam5 As Label
+    Friend WithEvents lbl_rankteam4 As Label
+    Friend WithEvents lbl_rankteam9 As Label
+    Friend WithEvents lbl_rankteam8 As Label
+    Friend WithEvents lbl_rankteam7 As Label
+    Friend WithEvents lbl_rankteam18 As Label
+    Friend WithEvents lbl_rankteam17 As Label
+    Friend WithEvents lbl_rankteam16 As Label
+    Friend WithEvents lbl_rankteam15 As Label
+    Friend WithEvents lbl_rankteam14 As Label
+    Friend WithEvents lbl_rankteam13 As Label
+    Friend WithEvents lbl_rankteam12 As Label
+    Friend WithEvents lbl_rankteam11 As Label
+    Friend WithEvents lbl_rankteam10 As Label
+    Friend WithEvents lbl_rankteam20 As Label
+    Friend WithEvents lbl_rankteam19 As Label
 End Class

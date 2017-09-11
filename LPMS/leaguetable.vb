@@ -6,7 +6,6 @@ Public Class leaguetable
     Dim inputfile As IO.StreamReader
 
     Private Sub leaguetable_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'MsgBox("League Table")
         If File.Exists("teams.txt") Then
             inputfile = IO.File.OpenText("teams.txt")
             lbl_team1.Text = inputfile.ReadLine
@@ -29,14 +28,11 @@ Public Class leaguetable
             lbl_team18.Text = inputfile.ReadLine
             lbl_team19.Text = inputfile.ReadLine
             lbl_team20.Text = inputfile.ReadLine
-            lbl_team21.Text = inputfile.ReadLine
-            lbl_team22.Text = inputfile.ReadLine
-            lbl_team23.Text = inputfile.ReadLine
-            lbl_team24.Text = inputfile.ReadLine
             inputfile.Close()
         End If
-        ' MsgBox("Exiting League Table")
     End Sub
+
+
 
     Private Sub MainMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MainMenuToolStripMenuItem.Click
         mainmenu.Visible = 1

@@ -42,10 +42,6 @@ Partial Class leaguetable
         Me.lbl_team18 = New System.Windows.Forms.Label()
         Me.lbl_team19 = New System.Windows.Forms.Label()
         Me.lbl_team20 = New System.Windows.Forms.Label()
-        Me.lbl_team21 = New System.Windows.Forms.Label()
-        Me.lbl_team22 = New System.Windows.Forms.Label()
-        Me.lbl_team23 = New System.Windows.Forms.Label()
-        Me.lbl_team24 = New System.Windows.Forms.Label()
         Me.lbl_team9 = New System.Windows.Forms.Label()
         Me.lbl_team10 = New System.Windows.Forms.Label()
         Me.lbl_team11 = New System.Windows.Forms.Label()
@@ -57,36 +53,8 @@ Partial Class leaguetable
         Me.lbl_team4 = New System.Windows.Forms.Label()
         Me.lbl_team3 = New System.Windows.Forms.Label()
         Me.lbl_team2 = New System.Windows.Forms.Label()
-        Me.Label192 = New System.Windows.Forms.Label()
-        Me.Label181 = New System.Windows.Forms.Label()
-        Me.Label182 = New System.Windows.Forms.Label()
-        Me.Label183 = New System.Windows.Forms.Label()
-        Me.Label184 = New System.Windows.Forms.Label()
-        Me.Label186 = New System.Windows.Forms.Label()
-        Me.Label187 = New System.Windows.Forms.Label()
-        Me.Label188 = New System.Windows.Forms.Label()
-        Me.Label189 = New System.Windows.Forms.Label()
-        Me.Label190 = New System.Windows.Forms.Label()
-        Me.Label191 = New System.Windows.Forms.Label()
-        Me.Label170 = New System.Windows.Forms.Label()
-        Me.Label171 = New System.Windows.Forms.Label()
-        Me.Label172 = New System.Windows.Forms.Label()
-        Me.Label173 = New System.Windows.Forms.Label()
-        Me.Label174 = New System.Windows.Forms.Label()
-        Me.Label175 = New System.Windows.Forms.Label()
-        Me.Label176 = New System.Windows.Forms.Label()
-        Me.Label178 = New System.Windows.Forms.Label()
-        Me.Label179 = New System.Windows.Forms.Label()
-        Me.Label180 = New System.Windows.Forms.Label()
         Me.Label159 = New System.Windows.Forms.Label()
         Me.Label160 = New System.Windows.Forms.Label()
-        Me.Label162 = New System.Windows.Forms.Label()
-        Me.Label163 = New System.Windows.Forms.Label()
-        Me.Label164 = New System.Windows.Forms.Label()
-        Me.Label165 = New System.Windows.Forms.Label()
-        Me.Label166 = New System.Windows.Forms.Label()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.Label168 = New System.Windows.Forms.Label()
         Me.Label148 = New System.Windows.Forms.Label()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.Label150 = New System.Windows.Forms.Label()
@@ -233,10 +201,6 @@ Partial Class leaguetable
         Me.lbl_eighteenth = New System.Windows.Forms.Label()
         Me.lbl_nineteenth = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lbl_twenty_first = New System.Windows.Forms.Label()
-        Me.lbl_twenty_second = New System.Windows.Forms.Label()
-        Me.lbl_twenty_third = New System.Windows.Forms.Label()
-        Me.lbl_twenty_fourth = New System.Windows.Forms.Label()
         Me.lbl_wins_team1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -318,7 +282,7 @@ Partial Class leaguetable
         '
         Me.lbl_wins.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_wins.AutoSize = True
-        Me.lbl_wins.Location = New System.Drawing.Point(251, 5)
+        Me.lbl_wins.Location = New System.Drawing.Point(251, 8)
         Me.lbl_wins.Name = "lbl_wins"
         Me.lbl_wins.Size = New System.Drawing.Size(21, 17)
         Me.lbl_wins.TabIndex = 2
@@ -328,7 +292,7 @@ Partial Class leaguetable
         '
         Me.lbl_team.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team.AutoSize = True
-        Me.lbl_team.Location = New System.Drawing.Point(48, 5)
+        Me.lbl_team.Location = New System.Drawing.Point(48, 8)
         Me.lbl_team.Name = "lbl_team"
         Me.lbl_team.Size = New System.Drawing.Size(44, 17)
         Me.lbl_team.TabIndex = 1
@@ -338,7 +302,7 @@ Partial Class leaguetable
         '
         Me.lbl_pos.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_pos.AutoSize = True
-        Me.lbl_pos.Location = New System.Drawing.Point(4, 5)
+        Me.lbl_pos.Location = New System.Drawing.Point(4, 8)
         Me.lbl_pos.Name = "lbl_pos"
         Me.lbl_pos.Size = New System.Drawing.Size(32, 17)
         Me.lbl_pos.TabIndex = 0
@@ -356,7 +320,7 @@ Partial Class leaguetable
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 48.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 43.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team13, 1, 13)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team14, 1, 14)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team15, 1, 15)
@@ -365,10 +329,6 @@ Partial Class leaguetable
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team18, 1, 18)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team19, 1, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team20, 1, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_team21, 1, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_team22, 1, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_team23, 1, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_team24, 1, 24)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team9, 1, 9)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team10, 1, 10)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team11, 1, 11)
@@ -380,36 +340,8 @@ Partial Class leaguetable
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team4, 1, 4)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team3, 1, 3)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team2, 1, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label192, 8, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label181, 5, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label182, 6, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label183, 7, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label184, 8, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label186, 2, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label187, 3, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label188, 4, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label189, 5, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label190, 6, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label191, 7, 24)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label170, 2, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label171, 3, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label172, 4, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label173, 5, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label174, 6, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label175, 7, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label176, 8, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label178, 2, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label179, 3, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label180, 4, 23)
         Me.TableLayoutPanel1.Controls.Add(Me.Label159, 7, 20)
         Me.TableLayoutPanel1.Controls.Add(Me.Label160, 8, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label162, 2, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label163, 3, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label164, 4, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label165, 5, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label166, 6, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label167, 7, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label168, 8, 21)
         Me.TableLayoutPanel1.Controls.Add(Me.Label148, 4, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.Label149, 5, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.Label150, 6, 19)
@@ -559,10 +491,6 @@ Partial Class leaguetable
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_eighteenth, 0, 18)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_nineteenth, 0, 19)
         Me.TableLayoutPanel1.Controls.Add(Me.Label1, 0, 20)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_twenty_first, 0, 21)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_twenty_second, 0, 22)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_twenty_third, 0, 23)
-        Me.TableLayoutPanel1.Controls.Add(Me.lbl_twenty_fourth, 0, 24)
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_wins_team1, 2, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Label2, 2, 2)
         Me.TableLayoutPanel1.Controls.Add(Me.Label4, 2, 4)
@@ -584,32 +512,28 @@ Partial Class leaguetable
         Me.TableLayoutPanel1.Controls.Add(Me.lbl_team1, 1, 1)
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(85, 63)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 25
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.0!))
+        Me.TableLayoutPanel1.RowCount = 21
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.761906!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(543, 678)
         Me.TableLayoutPanel1.TabIndex = 18
         '
@@ -617,7 +541,7 @@ Partial Class leaguetable
         '
         Me.lbl_team13.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team13.AutoSize = True
-        Me.lbl_team13.Location = New System.Drawing.Point(48, 356)
+        Me.lbl_team13.Location = New System.Drawing.Point(48, 424)
         Me.lbl_team13.Name = "lbl_team13"
         Me.lbl_team13.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team13.TabIndex = 247
@@ -627,7 +551,7 @@ Partial Class leaguetable
         '
         Me.lbl_team14.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team14.AutoSize = True
-        Me.lbl_team14.Location = New System.Drawing.Point(48, 383)
+        Me.lbl_team14.Location = New System.Drawing.Point(48, 456)
         Me.lbl_team14.Name = "lbl_team14"
         Me.lbl_team14.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team14.TabIndex = 246
@@ -637,7 +561,7 @@ Partial Class leaguetable
         '
         Me.lbl_team15.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team15.AutoSize = True
-        Me.lbl_team15.Location = New System.Drawing.Point(48, 410)
+        Me.lbl_team15.Location = New System.Drawing.Point(48, 488)
         Me.lbl_team15.Name = "lbl_team15"
         Me.lbl_team15.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team15.TabIndex = 245
@@ -647,7 +571,7 @@ Partial Class leaguetable
         '
         Me.lbl_team16.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team16.AutoSize = True
-        Me.lbl_team16.Location = New System.Drawing.Point(48, 437)
+        Me.lbl_team16.Location = New System.Drawing.Point(48, 520)
         Me.lbl_team16.Name = "lbl_team16"
         Me.lbl_team16.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team16.TabIndex = 244
@@ -657,7 +581,7 @@ Partial Class leaguetable
         '
         Me.lbl_team17.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team17.AutoSize = True
-        Me.lbl_team17.Location = New System.Drawing.Point(48, 464)
+        Me.lbl_team17.Location = New System.Drawing.Point(48, 552)
         Me.lbl_team17.Name = "lbl_team17"
         Me.lbl_team17.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team17.TabIndex = 243
@@ -667,7 +591,7 @@ Partial Class leaguetable
         '
         Me.lbl_team18.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team18.AutoSize = True
-        Me.lbl_team18.Location = New System.Drawing.Point(48, 491)
+        Me.lbl_team18.Location = New System.Drawing.Point(48, 584)
         Me.lbl_team18.Name = "lbl_team18"
         Me.lbl_team18.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team18.TabIndex = 242
@@ -677,7 +601,7 @@ Partial Class leaguetable
         '
         Me.lbl_team19.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team19.AutoSize = True
-        Me.lbl_team19.Location = New System.Drawing.Point(48, 518)
+        Me.lbl_team19.Location = New System.Drawing.Point(48, 616)
         Me.lbl_team19.Name = "lbl_team19"
         Me.lbl_team19.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team19.TabIndex = 241
@@ -687,57 +611,17 @@ Partial Class leaguetable
         '
         Me.lbl_team20.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team20.AutoSize = True
-        Me.lbl_team20.Location = New System.Drawing.Point(48, 545)
+        Me.lbl_team20.Location = New System.Drawing.Point(48, 650)
         Me.lbl_team20.Name = "lbl_team20"
         Me.lbl_team20.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team20.TabIndex = 240
         Me.lbl_team20.Text = "team"
         '
-        'lbl_team21
-        '
-        Me.lbl_team21.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_team21.AutoSize = True
-        Me.lbl_team21.Location = New System.Drawing.Point(48, 572)
-        Me.lbl_team21.Name = "lbl_team21"
-        Me.lbl_team21.Size = New System.Drawing.Size(39, 17)
-        Me.lbl_team21.TabIndex = 239
-        Me.lbl_team21.Text = "team"
-        '
-        'lbl_team22
-        '
-        Me.lbl_team22.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_team22.AutoSize = True
-        Me.lbl_team22.Location = New System.Drawing.Point(48, 599)
-        Me.lbl_team22.Name = "lbl_team22"
-        Me.lbl_team22.Size = New System.Drawing.Size(39, 17)
-        Me.lbl_team22.TabIndex = 238
-        Me.lbl_team22.Text = "team"
-        '
-        'lbl_team23
-        '
-        Me.lbl_team23.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_team23.AutoSize = True
-        Me.lbl_team23.Location = New System.Drawing.Point(48, 626)
-        Me.lbl_team23.Name = "lbl_team23"
-        Me.lbl_team23.Size = New System.Drawing.Size(39, 17)
-        Me.lbl_team23.TabIndex = 237
-        Me.lbl_team23.Text = "team"
-        '
-        'lbl_team24
-        '
-        Me.lbl_team24.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_team24.AutoSize = True
-        Me.lbl_team24.Location = New System.Drawing.Point(48, 654)
-        Me.lbl_team24.Name = "lbl_team24"
-        Me.lbl_team24.Size = New System.Drawing.Size(39, 17)
-        Me.lbl_team24.TabIndex = 236
-        Me.lbl_team24.Text = "team"
-        '
         'lbl_team9
         '
         Me.lbl_team9.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team9.AutoSize = True
-        Me.lbl_team9.Location = New System.Drawing.Point(48, 248)
+        Me.lbl_team9.Location = New System.Drawing.Point(48, 296)
         Me.lbl_team9.Name = "lbl_team9"
         Me.lbl_team9.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team9.TabIndex = 235
@@ -747,7 +631,7 @@ Partial Class leaguetable
         '
         Me.lbl_team10.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team10.AutoSize = True
-        Me.lbl_team10.Location = New System.Drawing.Point(48, 275)
+        Me.lbl_team10.Location = New System.Drawing.Point(48, 328)
         Me.lbl_team10.Name = "lbl_team10"
         Me.lbl_team10.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team10.TabIndex = 234
@@ -757,7 +641,7 @@ Partial Class leaguetable
         '
         Me.lbl_team11.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team11.AutoSize = True
-        Me.lbl_team11.Location = New System.Drawing.Point(48, 302)
+        Me.lbl_team11.Location = New System.Drawing.Point(48, 360)
         Me.lbl_team11.Name = "lbl_team11"
         Me.lbl_team11.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team11.TabIndex = 233
@@ -767,7 +651,7 @@ Partial Class leaguetable
         '
         Me.lbl_team12.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team12.AutoSize = True
-        Me.lbl_team12.Location = New System.Drawing.Point(48, 329)
+        Me.lbl_team12.Location = New System.Drawing.Point(48, 392)
         Me.lbl_team12.Name = "lbl_team12"
         Me.lbl_team12.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team12.TabIndex = 232
@@ -777,7 +661,7 @@ Partial Class leaguetable
         '
         Me.lbl_team5.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team5.AutoSize = True
-        Me.lbl_team5.Location = New System.Drawing.Point(48, 140)
+        Me.lbl_team5.Location = New System.Drawing.Point(48, 168)
         Me.lbl_team5.Name = "lbl_team5"
         Me.lbl_team5.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team5.TabIndex = 231
@@ -787,7 +671,7 @@ Partial Class leaguetable
         '
         Me.lbl_team6.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team6.AutoSize = True
-        Me.lbl_team6.Location = New System.Drawing.Point(48, 167)
+        Me.lbl_team6.Location = New System.Drawing.Point(48, 200)
         Me.lbl_team6.Name = "lbl_team6"
         Me.lbl_team6.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team6.TabIndex = 230
@@ -797,7 +681,7 @@ Partial Class leaguetable
         '
         Me.lbl_team7.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team7.AutoSize = True
-        Me.lbl_team7.Location = New System.Drawing.Point(48, 194)
+        Me.lbl_team7.Location = New System.Drawing.Point(48, 232)
         Me.lbl_team7.Name = "lbl_team7"
         Me.lbl_team7.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team7.TabIndex = 229
@@ -807,7 +691,7 @@ Partial Class leaguetable
         '
         Me.lbl_team8.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team8.AutoSize = True
-        Me.lbl_team8.Location = New System.Drawing.Point(48, 221)
+        Me.lbl_team8.Location = New System.Drawing.Point(48, 264)
         Me.lbl_team8.Name = "lbl_team8"
         Me.lbl_team8.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team8.TabIndex = 228
@@ -817,7 +701,7 @@ Partial Class leaguetable
         '
         Me.lbl_team4.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team4.AutoSize = True
-        Me.lbl_team4.Location = New System.Drawing.Point(48, 113)
+        Me.lbl_team4.Location = New System.Drawing.Point(48, 136)
         Me.lbl_team4.Name = "lbl_team4"
         Me.lbl_team4.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team4.TabIndex = 227
@@ -827,7 +711,7 @@ Partial Class leaguetable
         '
         Me.lbl_team3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team3.AutoSize = True
-        Me.lbl_team3.Location = New System.Drawing.Point(48, 86)
+        Me.lbl_team3.Location = New System.Drawing.Point(48, 104)
         Me.lbl_team3.Name = "lbl_team3"
         Me.lbl_team3.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team3.TabIndex = 226
@@ -837,227 +721,17 @@ Partial Class leaguetable
         '
         Me.lbl_team2.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team2.AutoSize = True
-        Me.lbl_team2.Location = New System.Drawing.Point(48, 59)
+        Me.lbl_team2.Location = New System.Drawing.Point(48, 72)
         Me.lbl_team2.Name = "lbl_team2"
         Me.lbl_team2.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team2.TabIndex = 225
         Me.lbl_team2.Text = "team"
         '
-        'Label192
-        '
-        Me.Label192.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label192.AutoSize = True
-        Me.Label192.Location = New System.Drawing.Point(520, 654)
-        Me.Label192.Name = "Label192"
-        Me.Label192.Size = New System.Drawing.Size(16, 17)
-        Me.Label192.TabIndex = 223
-        Me.Label192.Text = "0"
-        '
-        'Label181
-        '
-        Me.Label181.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label181.AutoSize = True
-        Me.Label181.Location = New System.Drawing.Point(385, 626)
-        Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(16, 17)
-        Me.Label181.TabIndex = 214
-        Me.Label181.Text = "0"
-        '
-        'Label182
-        '
-        Me.Label182.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label182.AutoSize = True
-        Me.Label182.Location = New System.Drawing.Point(429, 626)
-        Me.Label182.Name = "Label182"
-        Me.Label182.Size = New System.Drawing.Size(16, 17)
-        Me.Label182.TabIndex = 212
-        Me.Label182.Text = "0"
-        '
-        'Label183
-        '
-        Me.Label183.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label183.AutoSize = True
-        Me.Label183.Location = New System.Drawing.Point(473, 626)
-        Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(16, 17)
-        Me.Label183.TabIndex = 216
-        Me.Label183.Text = "0"
-        '
-        'Label184
-        '
-        Me.Label184.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label184.AutoSize = True
-        Me.Label184.Location = New System.Drawing.Point(520, 626)
-        Me.Label184.Name = "Label184"
-        Me.Label184.Size = New System.Drawing.Size(16, 17)
-        Me.Label184.TabIndex = 217
-        Me.Label184.Text = "0"
-        '
-        'Label186
-        '
-        Me.Label186.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label186.AutoSize = True
-        Me.Label186.Location = New System.Drawing.Point(253, 654)
-        Me.Label186.Name = "Label186"
-        Me.Label186.Size = New System.Drawing.Size(16, 17)
-        Me.Label186.TabIndex = 219
-        Me.Label186.Text = "0"
-        '
-        'Label187
-        '
-        Me.Label187.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label187.AutoSize = True
-        Me.Label187.Location = New System.Drawing.Point(297, 654)
-        Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(16, 17)
-        Me.Label187.TabIndex = 213
-        Me.Label187.Text = "0"
-        '
-        'Label188
-        '
-        Me.Label188.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label188.AutoSize = True
-        Me.Label188.Location = New System.Drawing.Point(341, 654)
-        Me.Label188.Name = "Label188"
-        Me.Label188.Size = New System.Drawing.Size(16, 17)
-        Me.Label188.TabIndex = 222
-        Me.Label188.Text = "0"
-        '
-        'Label189
-        '
-        Me.Label189.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label189.AutoSize = True
-        Me.Label189.Location = New System.Drawing.Point(385, 654)
-        Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(16, 17)
-        Me.Label189.TabIndex = 221
-        Me.Label189.Text = "0"
-        '
-        'Label190
-        '
-        Me.Label190.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label190.AutoSize = True
-        Me.Label190.Location = New System.Drawing.Point(429, 654)
-        Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(16, 17)
-        Me.Label190.TabIndex = 220
-        Me.Label190.Text = "0"
-        '
-        'Label191
-        '
-        Me.Label191.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label191.AutoSize = True
-        Me.Label191.Location = New System.Drawing.Point(473, 654)
-        Me.Label191.Name = "Label191"
-        Me.Label191.Size = New System.Drawing.Size(16, 17)
-        Me.Label191.TabIndex = 215
-        Me.Label191.Text = "0"
-        '
-        'Label170
-        '
-        Me.Label170.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label170.AutoSize = True
-        Me.Label170.Location = New System.Drawing.Point(253, 599)
-        Me.Label170.Name = "Label170"
-        Me.Label170.Size = New System.Drawing.Size(16, 17)
-        Me.Label170.TabIndex = 203
-        Me.Label170.Text = "0"
-        '
-        'Label171
-        '
-        Me.Label171.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label171.AutoSize = True
-        Me.Label171.Location = New System.Drawing.Point(297, 599)
-        Me.Label171.Name = "Label171"
-        Me.Label171.Size = New System.Drawing.Size(16, 17)
-        Me.Label171.TabIndex = 201
-        Me.Label171.Text = "0"
-        '
-        'Label172
-        '
-        Me.Label172.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label172.AutoSize = True
-        Me.Label172.Location = New System.Drawing.Point(341, 599)
-        Me.Label172.Name = "Label172"
-        Me.Label172.Size = New System.Drawing.Size(16, 17)
-        Me.Label172.TabIndex = 205
-        Me.Label172.Text = "0"
-        '
-        'Label173
-        '
-        Me.Label173.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label173.AutoSize = True
-        Me.Label173.Location = New System.Drawing.Point(385, 599)
-        Me.Label173.Name = "Label173"
-        Me.Label173.Size = New System.Drawing.Size(16, 17)
-        Me.Label173.TabIndex = 206
-        Me.Label173.Text = "0"
-        '
-        'Label174
-        '
-        Me.Label174.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label174.AutoSize = True
-        Me.Label174.Location = New System.Drawing.Point(429, 599)
-        Me.Label174.Name = "Label174"
-        Me.Label174.Size = New System.Drawing.Size(16, 17)
-        Me.Label174.TabIndex = 207
-        Me.Label174.Text = "0"
-        '
-        'Label175
-        '
-        Me.Label175.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label175.AutoSize = True
-        Me.Label175.Location = New System.Drawing.Point(473, 599)
-        Me.Label175.Name = "Label175"
-        Me.Label175.Size = New System.Drawing.Size(16, 17)
-        Me.Label175.TabIndex = 208
-        Me.Label175.Text = "0"
-        '
-        'Label176
-        '
-        Me.Label176.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label176.AutoSize = True
-        Me.Label176.Location = New System.Drawing.Point(520, 599)
-        Me.Label176.Name = "Label176"
-        Me.Label176.Size = New System.Drawing.Size(16, 17)
-        Me.Label176.TabIndex = 202
-        Me.Label176.Text = "0"
-        '
-        'Label178
-        '
-        Me.Label178.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label178.AutoSize = True
-        Me.Label178.Location = New System.Drawing.Point(253, 626)
-        Me.Label178.Name = "Label178"
-        Me.Label178.Size = New System.Drawing.Size(16, 17)
-        Me.Label178.TabIndex = 210
-        Me.Label178.Text = "0"
-        '
-        'Label179
-        '
-        Me.Label179.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label179.AutoSize = True
-        Me.Label179.Location = New System.Drawing.Point(297, 626)
-        Me.Label179.Name = "Label179"
-        Me.Label179.Size = New System.Drawing.Size(16, 17)
-        Me.Label179.TabIndex = 209
-        Me.Label179.Text = "0"
-        '
-        'Label180
-        '
-        Me.Label180.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label180.AutoSize = True
-        Me.Label180.Location = New System.Drawing.Point(341, 626)
-        Me.Label180.Name = "Label180"
-        Me.Label180.Size = New System.Drawing.Size(16, 17)
-        Me.Label180.TabIndex = 204
-        Me.Label180.Text = "0"
-        '
         'Label159
         '
         Me.Label159.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label159.AutoSize = True
-        Me.Label159.Location = New System.Drawing.Point(473, 545)
+        Me.Label159.Location = New System.Drawing.Point(473, 650)
         Me.Label159.Name = "Label159"
         Me.Label159.Size = New System.Drawing.Size(16, 17)
         Me.Label159.TabIndex = 192
@@ -1067,87 +741,17 @@ Partial Class leaguetable
         '
         Me.Label160.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label160.AutoSize = True
-        Me.Label160.Location = New System.Drawing.Point(520, 545)
+        Me.Label160.Location = New System.Drawing.Point(526, 650)
         Me.Label160.Name = "Label160"
         Me.Label160.Size = New System.Drawing.Size(16, 17)
         Me.Label160.TabIndex = 190
         Me.Label160.Text = "0"
         '
-        'Label162
-        '
-        Me.Label162.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label162.AutoSize = True
-        Me.Label162.Location = New System.Drawing.Point(253, 572)
-        Me.Label162.Name = "Label162"
-        Me.Label162.Size = New System.Drawing.Size(16, 17)
-        Me.Label162.TabIndex = 195
-        Me.Label162.Text = "0"
-        '
-        'Label163
-        '
-        Me.Label163.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label163.AutoSize = True
-        Me.Label163.Location = New System.Drawing.Point(297, 572)
-        Me.Label163.Name = "Label163"
-        Me.Label163.Size = New System.Drawing.Size(16, 17)
-        Me.Label163.TabIndex = 196
-        Me.Label163.Text = "0"
-        '
-        'Label164
-        '
-        Me.Label164.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label164.AutoSize = True
-        Me.Label164.Location = New System.Drawing.Point(341, 572)
-        Me.Label164.Name = "Label164"
-        Me.Label164.Size = New System.Drawing.Size(16, 17)
-        Me.Label164.TabIndex = 197
-        Me.Label164.Text = "0"
-        '
-        'Label165
-        '
-        Me.Label165.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label165.AutoSize = True
-        Me.Label165.Location = New System.Drawing.Point(385, 572)
-        Me.Label165.Name = "Label165"
-        Me.Label165.Size = New System.Drawing.Size(16, 17)
-        Me.Label165.TabIndex = 191
-        Me.Label165.Text = "0"
-        '
-        'Label166
-        '
-        Me.Label166.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label166.AutoSize = True
-        Me.Label166.Location = New System.Drawing.Point(429, 572)
-        Me.Label166.Name = "Label166"
-        Me.Label166.Size = New System.Drawing.Size(16, 17)
-        Me.Label166.TabIndex = 200
-        Me.Label166.Text = "0"
-        '
-        'Label167
-        '
-        Me.Label167.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label167.AutoSize = True
-        Me.Label167.Location = New System.Drawing.Point(473, 572)
-        Me.Label167.Name = "Label167"
-        Me.Label167.Size = New System.Drawing.Size(16, 17)
-        Me.Label167.TabIndex = 199
-        Me.Label167.Text = "0"
-        '
-        'Label168
-        '
-        Me.Label168.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label168.AutoSize = True
-        Me.Label168.Location = New System.Drawing.Point(520, 572)
-        Me.Label168.Name = "Label168"
-        Me.Label168.Size = New System.Drawing.Size(16, 17)
-        Me.Label168.TabIndex = 198
-        Me.Label168.Text = "0"
-        '
         'Label148
         '
         Me.Label148.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label148.AutoSize = True
-        Me.Label148.Location = New System.Drawing.Point(341, 518)
+        Me.Label148.Location = New System.Drawing.Point(341, 616)
         Me.Label148.Name = "Label148"
         Me.Label148.Size = New System.Drawing.Size(16, 17)
         Me.Label148.TabIndex = 181
@@ -1157,7 +761,7 @@ Partial Class leaguetable
         '
         Me.Label149.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label149.AutoSize = True
-        Me.Label149.Location = New System.Drawing.Point(385, 518)
+        Me.Label149.Location = New System.Drawing.Point(385, 616)
         Me.Label149.Name = "Label149"
         Me.Label149.Size = New System.Drawing.Size(16, 17)
         Me.Label149.TabIndex = 179
@@ -1167,7 +771,7 @@ Partial Class leaguetable
         '
         Me.Label150.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label150.AutoSize = True
-        Me.Label150.Location = New System.Drawing.Point(429, 518)
+        Me.Label150.Location = New System.Drawing.Point(429, 616)
         Me.Label150.Name = "Label150"
         Me.Label150.Size = New System.Drawing.Size(16, 17)
         Me.Label150.TabIndex = 183
@@ -1177,7 +781,7 @@ Partial Class leaguetable
         '
         Me.Label151.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label151.AutoSize = True
-        Me.Label151.Location = New System.Drawing.Point(473, 518)
+        Me.Label151.Location = New System.Drawing.Point(473, 616)
         Me.Label151.Name = "Label151"
         Me.Label151.Size = New System.Drawing.Size(16, 17)
         Me.Label151.TabIndex = 184
@@ -1187,7 +791,7 @@ Partial Class leaguetable
         '
         Me.Label152.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label152.AutoSize = True
-        Me.Label152.Location = New System.Drawing.Point(520, 518)
+        Me.Label152.Location = New System.Drawing.Point(526, 616)
         Me.Label152.Name = "Label152"
         Me.Label152.Size = New System.Drawing.Size(16, 17)
         Me.Label152.TabIndex = 185
@@ -1197,7 +801,7 @@ Partial Class leaguetable
         '
         Me.Label154.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label154.AutoSize = True
-        Me.Label154.Location = New System.Drawing.Point(253, 545)
+        Me.Label154.Location = New System.Drawing.Point(253, 650)
         Me.Label154.Name = "Label154"
         Me.Label154.Size = New System.Drawing.Size(16, 17)
         Me.Label154.TabIndex = 180
@@ -1207,7 +811,7 @@ Partial Class leaguetable
         '
         Me.Label155.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label155.AutoSize = True
-        Me.Label155.Location = New System.Drawing.Point(297, 545)
+        Me.Label155.Location = New System.Drawing.Point(297, 650)
         Me.Label155.Name = "Label155"
         Me.Label155.Size = New System.Drawing.Size(16, 17)
         Me.Label155.TabIndex = 189
@@ -1217,7 +821,7 @@ Partial Class leaguetable
         '
         Me.Label156.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label156.AutoSize = True
-        Me.Label156.Location = New System.Drawing.Point(341, 545)
+        Me.Label156.Location = New System.Drawing.Point(341, 650)
         Me.Label156.Name = "Label156"
         Me.Label156.Size = New System.Drawing.Size(16, 17)
         Me.Label156.TabIndex = 188
@@ -1227,7 +831,7 @@ Partial Class leaguetable
         '
         Me.Label157.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label157.AutoSize = True
-        Me.Label157.Location = New System.Drawing.Point(385, 545)
+        Me.Label157.Location = New System.Drawing.Point(385, 650)
         Me.Label157.Name = "Label157"
         Me.Label157.Size = New System.Drawing.Size(16, 17)
         Me.Label157.TabIndex = 187
@@ -1237,7 +841,7 @@ Partial Class leaguetable
         '
         Me.Label158.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label158.AutoSize = True
-        Me.Label158.Location = New System.Drawing.Point(429, 545)
+        Me.Label158.Location = New System.Drawing.Point(429, 650)
         Me.Label158.Name = "Label158"
         Me.Label158.Size = New System.Drawing.Size(16, 17)
         Me.Label158.TabIndex = 182
@@ -1247,7 +851,7 @@ Partial Class leaguetable
         '
         Me.Label138.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label138.AutoSize = True
-        Me.Label138.Location = New System.Drawing.Point(253, 491)
+        Me.Label138.Location = New System.Drawing.Point(253, 584)
         Me.Label138.Name = "Label138"
         Me.Label138.Size = New System.Drawing.Size(16, 17)
         Me.Label138.TabIndex = 168
@@ -1257,7 +861,7 @@ Partial Class leaguetable
         '
         Me.Label139.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label139.AutoSize = True
-        Me.Label139.Location = New System.Drawing.Point(297, 491)
+        Me.Label139.Location = New System.Drawing.Point(297, 584)
         Me.Label139.Name = "Label139"
         Me.Label139.Size = New System.Drawing.Size(16, 17)
         Me.Label139.TabIndex = 172
@@ -1267,7 +871,7 @@ Partial Class leaguetable
         '
         Me.Label140.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label140.AutoSize = True
-        Me.Label140.Location = New System.Drawing.Point(341, 491)
+        Me.Label140.Location = New System.Drawing.Point(341, 584)
         Me.Label140.Name = "Label140"
         Me.Label140.Size = New System.Drawing.Size(16, 17)
         Me.Label140.TabIndex = 173
@@ -1277,7 +881,7 @@ Partial Class leaguetable
         '
         Me.Label141.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label141.AutoSize = True
-        Me.Label141.Location = New System.Drawing.Point(385, 491)
+        Me.Label141.Location = New System.Drawing.Point(385, 584)
         Me.Label141.Name = "Label141"
         Me.Label141.Size = New System.Drawing.Size(16, 17)
         Me.Label141.TabIndex = 174
@@ -1287,7 +891,7 @@ Partial Class leaguetable
         '
         Me.Label142.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label142.AutoSize = True
-        Me.Label142.Location = New System.Drawing.Point(429, 491)
+        Me.Label142.Location = New System.Drawing.Point(429, 584)
         Me.Label142.Name = "Label142"
         Me.Label142.Size = New System.Drawing.Size(16, 17)
         Me.Label142.TabIndex = 175
@@ -1297,7 +901,7 @@ Partial Class leaguetable
         '
         Me.Label143.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label143.AutoSize = True
-        Me.Label143.Location = New System.Drawing.Point(473, 491)
+        Me.Label143.Location = New System.Drawing.Point(473, 584)
         Me.Label143.Name = "Label143"
         Me.Label143.Size = New System.Drawing.Size(16, 17)
         Me.Label143.TabIndex = 169
@@ -1307,7 +911,7 @@ Partial Class leaguetable
         '
         Me.Label144.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label144.AutoSize = True
-        Me.Label144.Location = New System.Drawing.Point(520, 491)
+        Me.Label144.Location = New System.Drawing.Point(526, 584)
         Me.Label144.Name = "Label144"
         Me.Label144.Size = New System.Drawing.Size(16, 17)
         Me.Label144.TabIndex = 178
@@ -1317,7 +921,7 @@ Partial Class leaguetable
         '
         Me.Label146.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label146.AutoSize = True
-        Me.Label146.Location = New System.Drawing.Point(253, 518)
+        Me.Label146.Location = New System.Drawing.Point(253, 616)
         Me.Label146.Name = "Label146"
         Me.Label146.Size = New System.Drawing.Size(16, 17)
         Me.Label146.TabIndex = 176
@@ -1327,7 +931,7 @@ Partial Class leaguetable
         '
         Me.Label147.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label147.AutoSize = True
-        Me.Label147.Location = New System.Drawing.Point(297, 518)
+        Me.Label147.Location = New System.Drawing.Point(297, 616)
         Me.Label147.Name = "Label147"
         Me.Label147.Size = New System.Drawing.Size(16, 17)
         Me.Label147.TabIndex = 171
@@ -1337,7 +941,7 @@ Partial Class leaguetable
         '
         Me.Label126.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label126.AutoSize = True
-        Me.Label126.Location = New System.Drawing.Point(429, 437)
+        Me.Label126.Location = New System.Drawing.Point(429, 520)
         Me.Label126.Name = "Label126"
         Me.Label126.Size = New System.Drawing.Size(16, 17)
         Me.Label126.TabIndex = 159
@@ -1347,7 +951,7 @@ Partial Class leaguetable
         '
         Me.Label127.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label127.AutoSize = True
-        Me.Label127.Location = New System.Drawing.Point(473, 437)
+        Me.Label127.Location = New System.Drawing.Point(473, 520)
         Me.Label127.Name = "Label127"
         Me.Label127.Size = New System.Drawing.Size(16, 17)
         Me.Label127.TabIndex = 157
@@ -1357,7 +961,7 @@ Partial Class leaguetable
         '
         Me.Label128.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label128.AutoSize = True
-        Me.Label128.Location = New System.Drawing.Point(520, 437)
+        Me.Label128.Location = New System.Drawing.Point(526, 520)
         Me.Label128.Name = "Label128"
         Me.Label128.Size = New System.Drawing.Size(16, 17)
         Me.Label128.TabIndex = 161
@@ -1367,7 +971,7 @@ Partial Class leaguetable
         '
         Me.Label130.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label130.AutoSize = True
-        Me.Label130.Location = New System.Drawing.Point(253, 464)
+        Me.Label130.Location = New System.Drawing.Point(253, 552)
         Me.Label130.Name = "Label130"
         Me.Label130.Size = New System.Drawing.Size(16, 17)
         Me.Label130.TabIndex = 163
@@ -1377,7 +981,7 @@ Partial Class leaguetable
         '
         Me.Label131.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label131.AutoSize = True
-        Me.Label131.Location = New System.Drawing.Point(297, 464)
+        Me.Label131.Location = New System.Drawing.Point(297, 552)
         Me.Label131.Name = "Label131"
         Me.Label131.Size = New System.Drawing.Size(16, 17)
         Me.Label131.TabIndex = 164
@@ -1387,7 +991,7 @@ Partial Class leaguetable
         '
         Me.Label132.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label132.AutoSize = True
-        Me.Label132.Location = New System.Drawing.Point(341, 464)
+        Me.Label132.Location = New System.Drawing.Point(341, 552)
         Me.Label132.Name = "Label132"
         Me.Label132.Size = New System.Drawing.Size(16, 17)
         Me.Label132.TabIndex = 158
@@ -1397,7 +1001,7 @@ Partial Class leaguetable
         '
         Me.Label133.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label133.AutoSize = True
-        Me.Label133.Location = New System.Drawing.Point(385, 464)
+        Me.Label133.Location = New System.Drawing.Point(385, 552)
         Me.Label133.Name = "Label133"
         Me.Label133.Size = New System.Drawing.Size(16, 17)
         Me.Label133.TabIndex = 167
@@ -1407,7 +1011,7 @@ Partial Class leaguetable
         '
         Me.Label134.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label134.AutoSize = True
-        Me.Label134.Location = New System.Drawing.Point(429, 464)
+        Me.Label134.Location = New System.Drawing.Point(429, 552)
         Me.Label134.Name = "Label134"
         Me.Label134.Size = New System.Drawing.Size(16, 17)
         Me.Label134.TabIndex = 166
@@ -1417,7 +1021,7 @@ Partial Class leaguetable
         '
         Me.Label135.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label135.AutoSize = True
-        Me.Label135.Location = New System.Drawing.Point(473, 464)
+        Me.Label135.Location = New System.Drawing.Point(473, 552)
         Me.Label135.Name = "Label135"
         Me.Label135.Size = New System.Drawing.Size(16, 17)
         Me.Label135.TabIndex = 165
@@ -1427,7 +1031,7 @@ Partial Class leaguetable
         '
         Me.Label136.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label136.AutoSize = True
-        Me.Label136.Location = New System.Drawing.Point(520, 464)
+        Me.Label136.Location = New System.Drawing.Point(526, 552)
         Me.Label136.Name = "Label136"
         Me.Label136.Size = New System.Drawing.Size(16, 17)
         Me.Label136.TabIndex = 160
@@ -1437,7 +1041,7 @@ Partial Class leaguetable
         '
         Me.Label115.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label115.AutoSize = True
-        Me.Label115.Location = New System.Drawing.Point(297, 410)
+        Me.Label115.Location = New System.Drawing.Point(297, 488)
         Me.Label115.Name = "Label115"
         Me.Label115.Size = New System.Drawing.Size(16, 17)
         Me.Label115.TabIndex = 148
@@ -1447,7 +1051,7 @@ Partial Class leaguetable
         '
         Me.Label116.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label116.AutoSize = True
-        Me.Label116.Location = New System.Drawing.Point(341, 410)
+        Me.Label116.Location = New System.Drawing.Point(341, 488)
         Me.Label116.Name = "Label116"
         Me.Label116.Size = New System.Drawing.Size(16, 17)
         Me.Label116.TabIndex = 146
@@ -1457,7 +1061,7 @@ Partial Class leaguetable
         '
         Me.Label117.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label117.AutoSize = True
-        Me.Label117.Location = New System.Drawing.Point(385, 410)
+        Me.Label117.Location = New System.Drawing.Point(385, 488)
         Me.Label117.Name = "Label117"
         Me.Label117.Size = New System.Drawing.Size(16, 17)
         Me.Label117.TabIndex = 150
@@ -1467,7 +1071,7 @@ Partial Class leaguetable
         '
         Me.Label118.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label118.AutoSize = True
-        Me.Label118.Location = New System.Drawing.Point(429, 410)
+        Me.Label118.Location = New System.Drawing.Point(429, 488)
         Me.Label118.Name = "Label118"
         Me.Label118.Size = New System.Drawing.Size(16, 17)
         Me.Label118.TabIndex = 151
@@ -1477,7 +1081,7 @@ Partial Class leaguetable
         '
         Me.Label119.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label119.AutoSize = True
-        Me.Label119.Location = New System.Drawing.Point(473, 410)
+        Me.Label119.Location = New System.Drawing.Point(473, 488)
         Me.Label119.Name = "Label119"
         Me.Label119.Size = New System.Drawing.Size(16, 17)
         Me.Label119.TabIndex = 152
@@ -1487,7 +1091,7 @@ Partial Class leaguetable
         '
         Me.Label120.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label120.AutoSize = True
-        Me.Label120.Location = New System.Drawing.Point(520, 410)
+        Me.Label120.Location = New System.Drawing.Point(526, 488)
         Me.Label120.Name = "Label120"
         Me.Label120.Size = New System.Drawing.Size(16, 17)
         Me.Label120.TabIndex = 153
@@ -1497,7 +1101,7 @@ Partial Class leaguetable
         '
         Me.Label122.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label122.AutoSize = True
-        Me.Label122.Location = New System.Drawing.Point(253, 437)
+        Me.Label122.Location = New System.Drawing.Point(253, 520)
         Me.Label122.Name = "Label122"
         Me.Label122.Size = New System.Drawing.Size(16, 17)
         Me.Label122.TabIndex = 156
@@ -1507,7 +1111,7 @@ Partial Class leaguetable
         '
         Me.Label123.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label123.AutoSize = True
-        Me.Label123.Location = New System.Drawing.Point(297, 437)
+        Me.Label123.Location = New System.Drawing.Point(297, 520)
         Me.Label123.Name = "Label123"
         Me.Label123.Size = New System.Drawing.Size(16, 17)
         Me.Label123.TabIndex = 155
@@ -1517,7 +1121,7 @@ Partial Class leaguetable
         '
         Me.Label124.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label124.AutoSize = True
-        Me.Label124.Location = New System.Drawing.Point(341, 437)
+        Me.Label124.Location = New System.Drawing.Point(341, 520)
         Me.Label124.Name = "Label124"
         Me.Label124.Size = New System.Drawing.Size(16, 17)
         Me.Label124.TabIndex = 154
@@ -1527,7 +1131,7 @@ Partial Class leaguetable
         '
         Me.Label125.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label125.AutoSize = True
-        Me.Label125.Location = New System.Drawing.Point(385, 437)
+        Me.Label125.Location = New System.Drawing.Point(385, 520)
         Me.Label125.Name = "Label125"
         Me.Label125.Size = New System.Drawing.Size(16, 17)
         Me.Label125.TabIndex = 149
@@ -1537,7 +1141,7 @@ Partial Class leaguetable
         '
         Me.Label104.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label104.AutoSize = True
-        Me.Label104.Location = New System.Drawing.Point(473, 356)
+        Me.Label104.Location = New System.Drawing.Point(473, 424)
         Me.Label104.Name = "Label104"
         Me.Label104.Size = New System.Drawing.Size(16, 17)
         Me.Label104.TabIndex = 137
@@ -1547,7 +1151,7 @@ Partial Class leaguetable
         '
         Me.Label105.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label105.AutoSize = True
-        Me.Label105.Location = New System.Drawing.Point(520, 356)
+        Me.Label105.Location = New System.Drawing.Point(526, 424)
         Me.Label105.Name = "Label105"
         Me.Label105.Size = New System.Drawing.Size(16, 17)
         Me.Label105.TabIndex = 135
@@ -1557,7 +1161,7 @@ Partial Class leaguetable
         '
         Me.Label107.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label107.AutoSize = True
-        Me.Label107.Location = New System.Drawing.Point(297, 383)
+        Me.Label107.Location = New System.Drawing.Point(297, 456)
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(16, 17)
         Me.Label107.TabIndex = 140
@@ -1567,7 +1171,7 @@ Partial Class leaguetable
         '
         Me.Label108.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label108.AutoSize = True
-        Me.Label108.Location = New System.Drawing.Point(341, 383)
+        Me.Label108.Location = New System.Drawing.Point(341, 456)
         Me.Label108.Name = "Label108"
         Me.Label108.Size = New System.Drawing.Size(16, 17)
         Me.Label108.TabIndex = 141
@@ -1577,7 +1181,7 @@ Partial Class leaguetable
         '
         Me.Label109.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label109.AutoSize = True
-        Me.Label109.Location = New System.Drawing.Point(385, 383)
+        Me.Label109.Location = New System.Drawing.Point(385, 456)
         Me.Label109.Name = "Label109"
         Me.Label109.Size = New System.Drawing.Size(16, 17)
         Me.Label109.TabIndex = 142
@@ -1587,7 +1191,7 @@ Partial Class leaguetable
         '
         Me.Label110.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label110.AutoSize = True
-        Me.Label110.Location = New System.Drawing.Point(429, 383)
+        Me.Label110.Location = New System.Drawing.Point(429, 456)
         Me.Label110.Name = "Label110"
         Me.Label110.Size = New System.Drawing.Size(16, 17)
         Me.Label110.TabIndex = 136
@@ -1597,7 +1201,7 @@ Partial Class leaguetable
         '
         Me.Label111.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label111.AutoSize = True
-        Me.Label111.Location = New System.Drawing.Point(473, 383)
+        Me.Label111.Location = New System.Drawing.Point(473, 456)
         Me.Label111.Name = "Label111"
         Me.Label111.Size = New System.Drawing.Size(16, 17)
         Me.Label111.TabIndex = 145
@@ -1607,7 +1211,7 @@ Partial Class leaguetable
         '
         Me.Label112.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label112.AutoSize = True
-        Me.Label112.Location = New System.Drawing.Point(520, 383)
+        Me.Label112.Location = New System.Drawing.Point(526, 456)
         Me.Label112.Name = "Label112"
         Me.Label112.Size = New System.Drawing.Size(16, 17)
         Me.Label112.TabIndex = 144
@@ -1617,7 +1221,7 @@ Partial Class leaguetable
         '
         Me.Label114.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label114.AutoSize = True
-        Me.Label114.Location = New System.Drawing.Point(253, 410)
+        Me.Label114.Location = New System.Drawing.Point(253, 488)
         Me.Label114.Name = "Label114"
         Me.Label114.Size = New System.Drawing.Size(16, 17)
         Me.Label114.TabIndex = 138
@@ -1627,7 +1231,7 @@ Partial Class leaguetable
         '
         Me.Label93.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label93.AutoSize = True
-        Me.Label93.Location = New System.Drawing.Point(297, 329)
+        Me.Label93.Location = New System.Drawing.Point(297, 392)
         Me.Label93.Name = "Label93"
         Me.Label93.Size = New System.Drawing.Size(16, 17)
         Me.Label93.TabIndex = 126
@@ -1637,7 +1241,7 @@ Partial Class leaguetable
         '
         Me.Label94.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label94.AutoSize = True
-        Me.Label94.Location = New System.Drawing.Point(341, 329)
+        Me.Label94.Location = New System.Drawing.Point(341, 392)
         Me.Label94.Name = "Label94"
         Me.Label94.Size = New System.Drawing.Size(16, 17)
         Me.Label94.TabIndex = 124
@@ -1647,7 +1251,7 @@ Partial Class leaguetable
         '
         Me.Label95.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label95.AutoSize = True
-        Me.Label95.Location = New System.Drawing.Point(385, 329)
+        Me.Label95.Location = New System.Drawing.Point(385, 392)
         Me.Label95.Name = "Label95"
         Me.Label95.Size = New System.Drawing.Size(16, 17)
         Me.Label95.TabIndex = 128
@@ -1657,7 +1261,7 @@ Partial Class leaguetable
         '
         Me.Label96.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label96.AutoSize = True
-        Me.Label96.Location = New System.Drawing.Point(429, 329)
+        Me.Label96.Location = New System.Drawing.Point(429, 392)
         Me.Label96.Name = "Label96"
         Me.Label96.Size = New System.Drawing.Size(16, 17)
         Me.Label96.TabIndex = 129
@@ -1667,7 +1271,7 @@ Partial Class leaguetable
         '
         Me.Label97.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label97.AutoSize = True
-        Me.Label97.Location = New System.Drawing.Point(473, 329)
+        Me.Label97.Location = New System.Drawing.Point(473, 392)
         Me.Label97.Name = "Label97"
         Me.Label97.Size = New System.Drawing.Size(16, 17)
         Me.Label97.TabIndex = 130
@@ -1677,7 +1281,7 @@ Partial Class leaguetable
         '
         Me.Label98.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label98.AutoSize = True
-        Me.Label98.Location = New System.Drawing.Point(520, 329)
+        Me.Label98.Location = New System.Drawing.Point(526, 392)
         Me.Label98.Name = "Label98"
         Me.Label98.Size = New System.Drawing.Size(16, 17)
         Me.Label98.TabIndex = 131
@@ -1687,7 +1291,7 @@ Partial Class leaguetable
         '
         Me.Label100.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label100.AutoSize = True
-        Me.Label100.Location = New System.Drawing.Point(297, 356)
+        Me.Label100.Location = New System.Drawing.Point(297, 424)
         Me.Label100.Name = "Label100"
         Me.Label100.Size = New System.Drawing.Size(16, 17)
         Me.Label100.TabIndex = 134
@@ -1697,7 +1301,7 @@ Partial Class leaguetable
         '
         Me.Label101.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label101.AutoSize = True
-        Me.Label101.Location = New System.Drawing.Point(341, 356)
+        Me.Label101.Location = New System.Drawing.Point(341, 424)
         Me.Label101.Name = "Label101"
         Me.Label101.Size = New System.Drawing.Size(16, 17)
         Me.Label101.TabIndex = 133
@@ -1707,7 +1311,7 @@ Partial Class leaguetable
         '
         Me.Label102.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label102.AutoSize = True
-        Me.Label102.Location = New System.Drawing.Point(385, 356)
+        Me.Label102.Location = New System.Drawing.Point(385, 424)
         Me.Label102.Name = "Label102"
         Me.Label102.Size = New System.Drawing.Size(16, 17)
         Me.Label102.TabIndex = 132
@@ -1717,7 +1321,7 @@ Partial Class leaguetable
         '
         Me.Label103.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label103.AutoSize = True
-        Me.Label103.Location = New System.Drawing.Point(429, 356)
+        Me.Label103.Location = New System.Drawing.Point(429, 424)
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(16, 17)
         Me.Label103.TabIndex = 127
@@ -1727,7 +1331,7 @@ Partial Class leaguetable
         '
         Me.Label82.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label82.AutoSize = True
-        Me.Label82.Location = New System.Drawing.Point(429, 275)
+        Me.Label82.Location = New System.Drawing.Point(429, 328)
         Me.Label82.Name = "Label82"
         Me.Label82.Size = New System.Drawing.Size(16, 17)
         Me.Label82.TabIndex = 115
@@ -1737,7 +1341,7 @@ Partial Class leaguetable
         '
         Me.Label83.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label83.AutoSize = True
-        Me.Label83.Location = New System.Drawing.Point(473, 275)
+        Me.Label83.Location = New System.Drawing.Point(473, 328)
         Me.Label83.Name = "Label83"
         Me.Label83.Size = New System.Drawing.Size(16, 17)
         Me.Label83.TabIndex = 113
@@ -1747,7 +1351,7 @@ Partial Class leaguetable
         '
         Me.Label84.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label84.AutoSize = True
-        Me.Label84.Location = New System.Drawing.Point(520, 275)
+        Me.Label84.Location = New System.Drawing.Point(526, 328)
         Me.Label84.Name = "Label84"
         Me.Label84.Size = New System.Drawing.Size(16, 17)
         Me.Label84.TabIndex = 117
@@ -1757,7 +1361,7 @@ Partial Class leaguetable
         '
         Me.Label86.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label86.AutoSize = True
-        Me.Label86.Location = New System.Drawing.Point(297, 302)
+        Me.Label86.Location = New System.Drawing.Point(297, 360)
         Me.Label86.Name = "Label86"
         Me.Label86.Size = New System.Drawing.Size(16, 17)
         Me.Label86.TabIndex = 119
@@ -1767,7 +1371,7 @@ Partial Class leaguetable
         '
         Me.Label87.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label87.AutoSize = True
-        Me.Label87.Location = New System.Drawing.Point(341, 302)
+        Me.Label87.Location = New System.Drawing.Point(341, 360)
         Me.Label87.Name = "Label87"
         Me.Label87.Size = New System.Drawing.Size(16, 17)
         Me.Label87.TabIndex = 120
@@ -1777,7 +1381,7 @@ Partial Class leaguetable
         '
         Me.Label88.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label88.AutoSize = True
-        Me.Label88.Location = New System.Drawing.Point(385, 302)
+        Me.Label88.Location = New System.Drawing.Point(385, 360)
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(16, 17)
         Me.Label88.TabIndex = 114
@@ -1787,7 +1391,7 @@ Partial Class leaguetable
         '
         Me.Label89.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label89.AutoSize = True
-        Me.Label89.Location = New System.Drawing.Point(429, 302)
+        Me.Label89.Location = New System.Drawing.Point(429, 360)
         Me.Label89.Name = "Label89"
         Me.Label89.Size = New System.Drawing.Size(16, 17)
         Me.Label89.TabIndex = 123
@@ -1797,7 +1401,7 @@ Partial Class leaguetable
         '
         Me.Label90.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label90.AutoSize = True
-        Me.Label90.Location = New System.Drawing.Point(473, 302)
+        Me.Label90.Location = New System.Drawing.Point(473, 360)
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(16, 17)
         Me.Label90.TabIndex = 122
@@ -1807,7 +1411,7 @@ Partial Class leaguetable
         '
         Me.Label91.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label91.AutoSize = True
-        Me.Label91.Location = New System.Drawing.Point(520, 302)
+        Me.Label91.Location = New System.Drawing.Point(526, 360)
         Me.Label91.Name = "Label91"
         Me.Label91.Size = New System.Drawing.Size(16, 17)
         Me.Label91.TabIndex = 121
@@ -1817,7 +1421,7 @@ Partial Class leaguetable
         '
         Me.Label72.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label72.AutoSize = True
-        Me.Label72.Location = New System.Drawing.Point(297, 248)
+        Me.Label72.Location = New System.Drawing.Point(297, 296)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(16, 17)
         Me.Label72.TabIndex = 102
@@ -1827,7 +1431,7 @@ Partial Class leaguetable
         '
         Me.Label73.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label73.AutoSize = True
-        Me.Label73.Location = New System.Drawing.Point(341, 248)
+        Me.Label73.Location = New System.Drawing.Point(341, 296)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(16, 17)
         Me.Label73.TabIndex = 106
@@ -1837,7 +1441,7 @@ Partial Class leaguetable
         '
         Me.Label74.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label74.AutoSize = True
-        Me.Label74.Location = New System.Drawing.Point(385, 248)
+        Me.Label74.Location = New System.Drawing.Point(385, 296)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(16, 17)
         Me.Label74.TabIndex = 107
@@ -1847,7 +1451,7 @@ Partial Class leaguetable
         '
         Me.Label75.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label75.AutoSize = True
-        Me.Label75.Location = New System.Drawing.Point(429, 248)
+        Me.Label75.Location = New System.Drawing.Point(429, 296)
         Me.Label75.Name = "Label75"
         Me.Label75.Size = New System.Drawing.Size(16, 17)
         Me.Label75.TabIndex = 108
@@ -1857,7 +1461,7 @@ Partial Class leaguetable
         '
         Me.Label76.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label76.AutoSize = True
-        Me.Label76.Location = New System.Drawing.Point(473, 248)
+        Me.Label76.Location = New System.Drawing.Point(473, 296)
         Me.Label76.Name = "Label76"
         Me.Label76.Size = New System.Drawing.Size(16, 17)
         Me.Label76.TabIndex = 109
@@ -1867,7 +1471,7 @@ Partial Class leaguetable
         '
         Me.Label77.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label77.AutoSize = True
-        Me.Label77.Location = New System.Drawing.Point(520, 248)
+        Me.Label77.Location = New System.Drawing.Point(526, 296)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(16, 17)
         Me.Label77.TabIndex = 103
@@ -1877,7 +1481,7 @@ Partial Class leaguetable
         '
         Me.Label79.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(297, 275)
+        Me.Label79.Location = New System.Drawing.Point(297, 328)
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(16, 17)
         Me.Label79.TabIndex = 111
@@ -1887,7 +1491,7 @@ Partial Class leaguetable
         '
         Me.Label80.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(341, 275)
+        Me.Label80.Location = New System.Drawing.Point(341, 328)
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(16, 17)
         Me.Label80.TabIndex = 110
@@ -1897,7 +1501,7 @@ Partial Class leaguetable
         '
         Me.Label81.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label81.AutoSize = True
-        Me.Label81.Location = New System.Drawing.Point(385, 275)
+        Me.Label81.Location = New System.Drawing.Point(385, 328)
         Me.Label81.Name = "Label81"
         Me.Label81.Size = New System.Drawing.Size(16, 17)
         Me.Label81.TabIndex = 105
@@ -1907,7 +1511,7 @@ Partial Class leaguetable
         '
         Me.Label60.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label60.AutoSize = True
-        Me.Label60.Location = New System.Drawing.Point(385, 194)
+        Me.Label60.Location = New System.Drawing.Point(385, 232)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(16, 17)
         Me.Label60.TabIndex = 93
@@ -1917,7 +1521,7 @@ Partial Class leaguetable
         '
         Me.Label61.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label61.AutoSize = True
-        Me.Label61.Location = New System.Drawing.Point(429, 194)
+        Me.Label61.Location = New System.Drawing.Point(429, 232)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(16, 17)
         Me.Label61.TabIndex = 91
@@ -1927,7 +1531,7 @@ Partial Class leaguetable
         '
         Me.Label62.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label62.AutoSize = True
-        Me.Label62.Location = New System.Drawing.Point(473, 194)
+        Me.Label62.Location = New System.Drawing.Point(473, 232)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(16, 17)
         Me.Label62.TabIndex = 95
@@ -1937,7 +1541,7 @@ Partial Class leaguetable
         '
         Me.Label63.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label63.AutoSize = True
-        Me.Label63.Location = New System.Drawing.Point(520, 194)
+        Me.Label63.Location = New System.Drawing.Point(526, 232)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(16, 17)
         Me.Label63.TabIndex = 96
@@ -1947,7 +1551,7 @@ Partial Class leaguetable
         '
         Me.Label65.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label65.AutoSize = True
-        Me.Label65.Location = New System.Drawing.Point(297, 221)
+        Me.Label65.Location = New System.Drawing.Point(297, 264)
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(16, 17)
         Me.Label65.TabIndex = 98
@@ -1957,7 +1561,7 @@ Partial Class leaguetable
         '
         Me.Label66.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label66.AutoSize = True
-        Me.Label66.Location = New System.Drawing.Point(341, 221)
+        Me.Label66.Location = New System.Drawing.Point(341, 264)
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(16, 17)
         Me.Label66.TabIndex = 92
@@ -1967,7 +1571,7 @@ Partial Class leaguetable
         '
         Me.Label67.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label67.AutoSize = True
-        Me.Label67.Location = New System.Drawing.Point(385, 221)
+        Me.Label67.Location = New System.Drawing.Point(385, 264)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(16, 17)
         Me.Label67.TabIndex = 101
@@ -1977,7 +1581,7 @@ Partial Class leaguetable
         '
         Me.Label68.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label68.AutoSize = True
-        Me.Label68.Location = New System.Drawing.Point(429, 221)
+        Me.Label68.Location = New System.Drawing.Point(429, 264)
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(16, 17)
         Me.Label68.TabIndex = 100
@@ -1987,7 +1591,7 @@ Partial Class leaguetable
         '
         Me.Label69.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label69.AutoSize = True
-        Me.Label69.Location = New System.Drawing.Point(473, 221)
+        Me.Label69.Location = New System.Drawing.Point(473, 264)
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(16, 17)
         Me.Label69.TabIndex = 99
@@ -1997,7 +1601,7 @@ Partial Class leaguetable
         '
         Me.Label70.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label70.AutoSize = True
-        Me.Label70.Location = New System.Drawing.Point(520, 221)
+        Me.Label70.Location = New System.Drawing.Point(526, 264)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(16, 17)
         Me.Label70.TabIndex = 94
@@ -2007,7 +1611,7 @@ Partial Class leaguetable
         '
         Me.Label49.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(520, 140)
+        Me.Label49.Location = New System.Drawing.Point(526, 168)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(16, 17)
         Me.Label49.TabIndex = 82
@@ -2017,7 +1621,7 @@ Partial Class leaguetable
         '
         Me.Label51.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label51.AutoSize = True
-        Me.Label51.Location = New System.Drawing.Point(297, 167)
+        Me.Label51.Location = New System.Drawing.Point(297, 200)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(16, 17)
         Me.Label51.TabIndex = 84
@@ -2027,7 +1631,7 @@ Partial Class leaguetable
         '
         Me.Label52.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label52.AutoSize = True
-        Me.Label52.Location = New System.Drawing.Point(341, 167)
+        Me.Label52.Location = New System.Drawing.Point(341, 200)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(16, 17)
         Me.Label52.TabIndex = 85
@@ -2037,7 +1641,7 @@ Partial Class leaguetable
         '
         Me.Label53.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label53.AutoSize = True
-        Me.Label53.Location = New System.Drawing.Point(385, 167)
+        Me.Label53.Location = New System.Drawing.Point(385, 200)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(16, 17)
         Me.Label53.TabIndex = 86
@@ -2047,7 +1651,7 @@ Partial Class leaguetable
         '
         Me.Label54.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label54.AutoSize = True
-        Me.Label54.Location = New System.Drawing.Point(429, 167)
+        Me.Label54.Location = New System.Drawing.Point(429, 200)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(16, 17)
         Me.Label54.TabIndex = 87
@@ -2057,7 +1661,7 @@ Partial Class leaguetable
         '
         Me.Label55.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label55.AutoSize = True
-        Me.Label55.Location = New System.Drawing.Point(473, 167)
+        Me.Label55.Location = New System.Drawing.Point(473, 200)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(16, 17)
         Me.Label55.TabIndex = 81
@@ -2067,7 +1671,7 @@ Partial Class leaguetable
         '
         Me.Label56.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label56.AutoSize = True
-        Me.Label56.Location = New System.Drawing.Point(520, 167)
+        Me.Label56.Location = New System.Drawing.Point(526, 200)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(16, 17)
         Me.Label56.TabIndex = 90
@@ -2077,7 +1681,7 @@ Partial Class leaguetable
         '
         Me.Label58.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label58.AutoSize = True
-        Me.Label58.Location = New System.Drawing.Point(297, 194)
+        Me.Label58.Location = New System.Drawing.Point(297, 232)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(16, 17)
         Me.Label58.TabIndex = 88
@@ -2087,7 +1691,7 @@ Partial Class leaguetable
         '
         Me.Label59.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label59.AutoSize = True
-        Me.Label59.Location = New System.Drawing.Point(341, 194)
+        Me.Label59.Location = New System.Drawing.Point(341, 232)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(16, 17)
         Me.Label59.TabIndex = 83
@@ -2097,7 +1701,7 @@ Partial Class leaguetable
         '
         Me.Label42.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label42.AutoSize = True
-        Me.Label42.Location = New System.Drawing.Point(520, 113)
+        Me.Label42.Location = New System.Drawing.Point(526, 136)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(16, 17)
         Me.Label42.TabIndex = 75
@@ -2107,7 +1711,7 @@ Partial Class leaguetable
         '
         Me.Label44.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(297, 140)
+        Me.Label44.Location = New System.Drawing.Point(297, 168)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(16, 17)
         Me.Label44.TabIndex = 70
@@ -2117,7 +1721,7 @@ Partial Class leaguetable
         '
         Me.Label45.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(341, 140)
+        Me.Label45.Location = New System.Drawing.Point(341, 168)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(16, 17)
         Me.Label45.TabIndex = 79
@@ -2127,7 +1731,7 @@ Partial Class leaguetable
         '
         Me.Label46.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(385, 140)
+        Me.Label46.Location = New System.Drawing.Point(385, 168)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(16, 17)
         Me.Label46.TabIndex = 78
@@ -2137,7 +1741,7 @@ Partial Class leaguetable
         '
         Me.Label47.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(429, 140)
+        Me.Label47.Location = New System.Drawing.Point(429, 168)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(16, 17)
         Me.Label47.TabIndex = 77
@@ -2147,7 +1751,7 @@ Partial Class leaguetable
         '
         Me.Label48.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(473, 140)
+        Me.Label48.Location = New System.Drawing.Point(473, 168)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(16, 17)
         Me.Label48.TabIndex = 72
@@ -2157,7 +1761,7 @@ Partial Class leaguetable
         '
         Me.Label26.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(297, 113)
+        Me.Label26.Location = New System.Drawing.Point(297, 136)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(16, 17)
         Me.Label26.TabIndex = 58
@@ -2167,7 +1771,7 @@ Partial Class leaguetable
         '
         Me.Label14.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(429, 59)
+        Me.Label14.Location = New System.Drawing.Point(429, 72)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(16, 17)
         Me.Label14.TabIndex = 46
@@ -2177,7 +1781,7 @@ Partial Class leaguetable
         '
         Me.Label27.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(253, 383)
+        Me.Label27.Location = New System.Drawing.Point(253, 456)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(16, 17)
         Me.Label27.TabIndex = 57
@@ -2187,7 +1791,7 @@ Partial Class leaguetable
         '
         Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(253, 86)
+        Me.Label3.Location = New System.Drawing.Point(253, 104)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(16, 17)
         Me.Label3.TabIndex = 35
@@ -2197,7 +1801,7 @@ Partial Class leaguetable
         '
         Me.Label29.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(520, 86)
+        Me.Label29.Location = New System.Drawing.Point(526, 104)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(16, 17)
         Me.Label29.TabIndex = 60
@@ -2207,7 +1811,7 @@ Partial Class leaguetable
         '
         Me.Label15.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(253, 356)
+        Me.Label15.Location = New System.Drawing.Point(253, 424)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(16, 17)
         Me.Label15.TabIndex = 45
@@ -2217,7 +1821,7 @@ Partial Class leaguetable
         '
         Me.Label30.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label30.AutoSize = True
-        Me.Label30.Location = New System.Drawing.Point(473, 86)
+        Me.Label30.Location = New System.Drawing.Point(473, 104)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(16, 17)
         Me.Label30.TabIndex = 61
@@ -2227,7 +1831,7 @@ Partial Class leaguetable
         '
         Me.Label16.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(385, 59)
+        Me.Label16.Location = New System.Drawing.Point(385, 72)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(16, 17)
         Me.Label16.TabIndex = 47
@@ -2237,7 +1841,7 @@ Partial Class leaguetable
         '
         Me.Label31.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label31.AutoSize = True
-        Me.Label31.Location = New System.Drawing.Point(429, 86)
+        Me.Label31.Location = New System.Drawing.Point(429, 104)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(16, 17)
         Me.Label31.TabIndex = 62
@@ -2247,7 +1851,7 @@ Partial Class leaguetable
         '
         Me.lbl_twelfth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_twelfth.AutoSize = True
-        Me.lbl_twelfth.Location = New System.Drawing.Point(4, 329)
+        Me.lbl_twelfth.Location = New System.Drawing.Point(4, 392)
         Me.lbl_twelfth.Name = "lbl_twelfth"
         Me.lbl_twelfth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_twelfth.TabIndex = 21
@@ -2257,7 +1861,7 @@ Partial Class leaguetable
         '
         Me.Label32.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label32.AutoSize = True
-        Me.Label32.Location = New System.Drawing.Point(385, 86)
+        Me.Label32.Location = New System.Drawing.Point(385, 104)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(16, 17)
         Me.Label32.TabIndex = 63
@@ -2267,7 +1871,7 @@ Partial Class leaguetable
         '
         Me.Label17.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(341, 59)
+        Me.Label17.Location = New System.Drawing.Point(341, 72)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(16, 17)
         Me.Label17.TabIndex = 48
@@ -2277,7 +1881,7 @@ Partial Class leaguetable
         '
         Me.Label33.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label33.AutoSize = True
-        Me.Label33.Location = New System.Drawing.Point(341, 86)
+        Me.Label33.Location = New System.Drawing.Point(341, 104)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(16, 17)
         Me.Label33.TabIndex = 64
@@ -2287,7 +1891,7 @@ Partial Class leaguetable
         '
         Me.lbl_tenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_tenth.AutoSize = True
-        Me.lbl_tenth.Location = New System.Drawing.Point(4, 275)
+        Me.lbl_tenth.Location = New System.Drawing.Point(4, 328)
         Me.lbl_tenth.Name = "lbl_tenth"
         Me.lbl_tenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_tenth.TabIndex = 20
@@ -2297,7 +1901,7 @@ Partial Class leaguetable
         '
         Me.Label34.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label34.AutoSize = True
-        Me.Label34.Location = New System.Drawing.Point(297, 86)
+        Me.Label34.Location = New System.Drawing.Point(297, 104)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(16, 17)
         Me.Label34.TabIndex = 65
@@ -2307,7 +1911,7 @@ Partial Class leaguetable
         '
         Me.Label18.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(297, 59)
+        Me.Label18.Location = New System.Drawing.Point(297, 72)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(16, 17)
         Me.Label18.TabIndex = 49
@@ -2317,7 +1921,7 @@ Partial Class leaguetable
         '
         Me.lbl_nineth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_nineth.AutoSize = True
-        Me.lbl_nineth.Location = New System.Drawing.Point(4, 248)
+        Me.lbl_nineth.Location = New System.Drawing.Point(4, 296)
         Me.lbl_nineth.Name = "lbl_nineth"
         Me.lbl_nineth.Size = New System.Drawing.Size(28, 17)
         Me.lbl_nineth.TabIndex = 20
@@ -2327,7 +1931,7 @@ Partial Class leaguetable
         '
         Me.lbl_eighth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_eighth.AutoSize = True
-        Me.lbl_eighth.Location = New System.Drawing.Point(4, 221)
+        Me.lbl_eighth.Location = New System.Drawing.Point(4, 264)
         Me.lbl_eighth.Name = "lbl_eighth"
         Me.lbl_eighth.Size = New System.Drawing.Size(28, 17)
         Me.lbl_eighth.TabIndex = 20
@@ -2337,7 +1941,7 @@ Partial Class leaguetable
         '
         Me.Label20.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label20.AutoSize = True
-        Me.Label20.Location = New System.Drawing.Point(520, 32)
+        Me.Label20.Location = New System.Drawing.Point(526, 40)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(16, 17)
         Me.Label20.TabIndex = 51
@@ -2347,7 +1951,7 @@ Partial Class leaguetable
         '
         Me.lbl_sixth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_sixth.AutoSize = True
-        Me.lbl_sixth.Location = New System.Drawing.Point(4, 167)
+        Me.lbl_sixth.Location = New System.Drawing.Point(4, 200)
         Me.lbl_sixth.Name = "lbl_sixth"
         Me.lbl_sixth.Size = New System.Drawing.Size(28, 17)
         Me.lbl_sixth.TabIndex = 20
@@ -2357,7 +1961,7 @@ Partial Class leaguetable
         '
         Me.Label21.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label21.AutoSize = True
-        Me.Label21.Location = New System.Drawing.Point(473, 32)
+        Me.Label21.Location = New System.Drawing.Point(473, 40)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(16, 17)
         Me.Label21.TabIndex = 52
@@ -2367,7 +1971,7 @@ Partial Class leaguetable
         '
         Me.lbl_fifth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_fifth.AutoSize = True
-        Me.lbl_fifth.Location = New System.Drawing.Point(4, 140)
+        Me.lbl_fifth.Location = New System.Drawing.Point(4, 168)
         Me.lbl_fifth.Name = "lbl_fifth"
         Me.lbl_fifth.Size = New System.Drawing.Size(28, 17)
         Me.lbl_fifth.TabIndex = 19
@@ -2377,7 +1981,7 @@ Partial Class leaguetable
         '
         Me.Label22.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(429, 32)
+        Me.Label22.Location = New System.Drawing.Point(429, 40)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(16, 17)
         Me.Label22.TabIndex = 53
@@ -2387,7 +1991,7 @@ Partial Class leaguetable
         '
         Me.lbl_fourth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_fourth.AutoSize = True
-        Me.lbl_fourth.Location = New System.Drawing.Point(4, 113)
+        Me.lbl_fourth.Location = New System.Drawing.Point(4, 136)
         Me.lbl_fourth.Name = "lbl_fourth"
         Me.lbl_fourth.Size = New System.Drawing.Size(28, 17)
         Me.lbl_fourth.TabIndex = 19
@@ -2397,7 +2001,7 @@ Partial Class leaguetable
         '
         Me.Label23.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(385, 32)
+        Me.Label23.Location = New System.Drawing.Point(385, 40)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(16, 17)
         Me.Label23.TabIndex = 54
@@ -2407,7 +2011,7 @@ Partial Class leaguetable
         '
         Me.lbl_third.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_third.AutoSize = True
-        Me.lbl_third.Location = New System.Drawing.Point(4, 86)
+        Me.lbl_third.Location = New System.Drawing.Point(4, 104)
         Me.lbl_third.Name = "lbl_third"
         Me.lbl_third.Size = New System.Drawing.Size(29, 17)
         Me.lbl_third.TabIndex = 19
@@ -2417,7 +2021,7 @@ Partial Class leaguetable
         '
         Me.Label24.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(341, 32)
+        Me.Label24.Location = New System.Drawing.Point(341, 40)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(16, 17)
         Me.Label24.TabIndex = 55
@@ -2427,7 +2031,7 @@ Partial Class leaguetable
         '
         Me.lbl_draws.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_draws.AutoSize = True
-        Me.lbl_draws.Location = New System.Drawing.Point(296, 5)
+        Me.lbl_draws.Location = New System.Drawing.Point(296, 8)
         Me.lbl_draws.Name = "lbl_draws"
         Me.lbl_draws.Size = New System.Drawing.Size(18, 17)
         Me.lbl_draws.TabIndex = 3
@@ -2437,7 +2041,7 @@ Partial Class leaguetable
         '
         Me.lbl_losses.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_losses.AutoSize = True
-        Me.lbl_losses.Location = New System.Drawing.Point(341, 5)
+        Me.lbl_losses.Location = New System.Drawing.Point(341, 8)
         Me.lbl_losses.Name = "lbl_losses"
         Me.lbl_losses.Size = New System.Drawing.Size(16, 17)
         Me.lbl_losses.TabIndex = 4
@@ -2447,7 +2051,7 @@ Partial Class leaguetable
         '
         Me.lbl_goalsfor.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_goalsfor.AutoSize = True
-        Me.lbl_goalsfor.Location = New System.Drawing.Point(380, 5)
+        Me.lbl_goalsfor.Location = New System.Drawing.Point(380, 8)
         Me.lbl_goalsfor.Name = "lbl_goalsfor"
         Me.lbl_goalsfor.Size = New System.Drawing.Size(27, 17)
         Me.lbl_goalsfor.TabIndex = 5
@@ -2457,7 +2061,7 @@ Partial Class leaguetable
         '
         Me.lbl_goalsagainst.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_goalsagainst.AutoSize = True
-        Me.lbl_goalsagainst.Location = New System.Drawing.Point(423, 5)
+        Me.lbl_goalsagainst.Location = New System.Drawing.Point(423, 8)
         Me.lbl_goalsagainst.Name = "lbl_goalsagainst"
         Me.lbl_goalsagainst.Size = New System.Drawing.Size(28, 17)
         Me.lbl_goalsagainst.TabIndex = 6
@@ -2467,7 +2071,7 @@ Partial Class leaguetable
         '
         Me.lbl_goaldifference.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_goaldifference.AutoSize = True
-        Me.lbl_goaldifference.Location = New System.Drawing.Point(467, 5)
+        Me.lbl_goaldifference.Location = New System.Drawing.Point(467, 8)
         Me.lbl_goaldifference.Name = "lbl_goaldifference"
         Me.lbl_goaldifference.Size = New System.Drawing.Size(29, 17)
         Me.lbl_goaldifference.TabIndex = 7
@@ -2477,7 +2081,7 @@ Partial Class leaguetable
         '
         Me.lbl_points.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_points.AutoSize = True
-        Me.lbl_points.Location = New System.Drawing.Point(514, 5)
+        Me.lbl_points.Location = New System.Drawing.Point(520, 8)
         Me.lbl_points.Name = "lbl_points"
         Me.lbl_points.Size = New System.Drawing.Size(28, 17)
         Me.lbl_points.TabIndex = 8
@@ -2487,7 +2091,7 @@ Partial Class leaguetable
         '
         Me.lbl_first.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_first.AutoSize = True
-        Me.lbl_first.Location = New System.Drawing.Point(4, 32)
+        Me.lbl_first.Location = New System.Drawing.Point(4, 40)
         Me.lbl_first.Name = "lbl_first"
         Me.lbl_first.Size = New System.Drawing.Size(27, 17)
         Me.lbl_first.TabIndex = 9
@@ -2497,7 +2101,7 @@ Partial Class leaguetable
         '
         Me.lbl_second.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_second.AutoSize = True
-        Me.lbl_second.Location = New System.Drawing.Point(4, 59)
+        Me.lbl_second.Location = New System.Drawing.Point(4, 72)
         Me.lbl_second.Name = "lbl_second"
         Me.lbl_second.Size = New System.Drawing.Size(32, 17)
         Me.lbl_second.TabIndex = 10
@@ -2507,7 +2111,7 @@ Partial Class leaguetable
         '
         Me.lbl_seventh.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_seventh.AutoSize = True
-        Me.lbl_seventh.Location = New System.Drawing.Point(4, 194)
+        Me.lbl_seventh.Location = New System.Drawing.Point(4, 232)
         Me.lbl_seventh.Name = "lbl_seventh"
         Me.lbl_seventh.Size = New System.Drawing.Size(28, 17)
         Me.lbl_seventh.TabIndex = 20
@@ -2517,7 +2121,7 @@ Partial Class leaguetable
         '
         Me.lbl_eleventh.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_eleventh.AutoSize = True
-        Me.lbl_eleventh.Location = New System.Drawing.Point(4, 302)
+        Me.lbl_eleventh.Location = New System.Drawing.Point(4, 360)
         Me.lbl_eleventh.Name = "lbl_eleventh"
         Me.lbl_eleventh.Size = New System.Drawing.Size(36, 17)
         Me.lbl_eleventh.TabIndex = 21
@@ -2527,7 +2131,7 @@ Partial Class leaguetable
         '
         Me.lbl_thirteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_thirteenth.AutoSize = True
-        Me.lbl_thirteenth.Location = New System.Drawing.Point(4, 356)
+        Me.lbl_thirteenth.Location = New System.Drawing.Point(4, 424)
         Me.lbl_thirteenth.Name = "lbl_thirteenth"
         Me.lbl_thirteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_thirteenth.TabIndex = 22
@@ -2537,7 +2141,7 @@ Partial Class leaguetable
         '
         Me.lbl_fourteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_fourteenth.AutoSize = True
-        Me.lbl_fourteenth.Location = New System.Drawing.Point(4, 383)
+        Me.lbl_fourteenth.Location = New System.Drawing.Point(4, 456)
         Me.lbl_fourteenth.Name = "lbl_fourteenth"
         Me.lbl_fourteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_fourteenth.TabIndex = 23
@@ -2547,7 +2151,7 @@ Partial Class leaguetable
         '
         Me.lbl_fifteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_fifteenth.AutoSize = True
-        Me.lbl_fifteenth.Location = New System.Drawing.Point(4, 410)
+        Me.lbl_fifteenth.Location = New System.Drawing.Point(4, 488)
         Me.lbl_fifteenth.Name = "lbl_fifteenth"
         Me.lbl_fifteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_fifteenth.TabIndex = 24
@@ -2557,7 +2161,7 @@ Partial Class leaguetable
         '
         Me.lbl_sixteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_sixteenth.AutoSize = True
-        Me.lbl_sixteenth.Location = New System.Drawing.Point(4, 437)
+        Me.lbl_sixteenth.Location = New System.Drawing.Point(4, 520)
         Me.lbl_sixteenth.Name = "lbl_sixteenth"
         Me.lbl_sixteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_sixteenth.TabIndex = 25
@@ -2567,7 +2171,7 @@ Partial Class leaguetable
         '
         Me.lbl_seventeenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_seventeenth.AutoSize = True
-        Me.lbl_seventeenth.Location = New System.Drawing.Point(4, 464)
+        Me.lbl_seventeenth.Location = New System.Drawing.Point(4, 552)
         Me.lbl_seventeenth.Name = "lbl_seventeenth"
         Me.lbl_seventeenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_seventeenth.TabIndex = 26
@@ -2577,7 +2181,7 @@ Partial Class leaguetable
         '
         Me.lbl_eighteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_eighteenth.AutoSize = True
-        Me.lbl_eighteenth.Location = New System.Drawing.Point(4, 491)
+        Me.lbl_eighteenth.Location = New System.Drawing.Point(4, 584)
         Me.lbl_eighteenth.Name = "lbl_eighteenth"
         Me.lbl_eighteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_eighteenth.TabIndex = 27
@@ -2587,7 +2191,7 @@ Partial Class leaguetable
         '
         Me.lbl_nineteenth.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_nineteenth.AutoSize = True
-        Me.lbl_nineteenth.Location = New System.Drawing.Point(4, 518)
+        Me.lbl_nineteenth.Location = New System.Drawing.Point(4, 616)
         Me.lbl_nineteenth.Name = "lbl_nineteenth"
         Me.lbl_nineteenth.Size = New System.Drawing.Size(36, 17)
         Me.lbl_nineteenth.TabIndex = 28
@@ -2597,57 +2201,17 @@ Partial Class leaguetable
         '
         Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(4, 545)
+        Me.Label1.Location = New System.Drawing.Point(4, 650)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(36, 17)
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "20th"
         '
-        'lbl_twenty_first
-        '
-        Me.lbl_twenty_first.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_twenty_first.AutoSize = True
-        Me.lbl_twenty_first.Location = New System.Drawing.Point(4, 572)
-        Me.lbl_twenty_first.Name = "lbl_twenty_first"
-        Me.lbl_twenty_first.Size = New System.Drawing.Size(35, 17)
-        Me.lbl_twenty_first.TabIndex = 30
-        Me.lbl_twenty_first.Text = "21st"
-        '
-        'lbl_twenty_second
-        '
-        Me.lbl_twenty_second.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_twenty_second.AutoSize = True
-        Me.lbl_twenty_second.Location = New System.Drawing.Point(4, 595)
-        Me.lbl_twenty_second.Name = "lbl_twenty_second"
-        Me.lbl_twenty_second.Size = New System.Drawing.Size(32, 26)
-        Me.lbl_twenty_second.TabIndex = 31
-        Me.lbl_twenty_second.Text = "22nd"
-        '
-        'lbl_twenty_third
-        '
-        Me.lbl_twenty_third.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_twenty_third.AutoSize = True
-        Me.lbl_twenty_third.Location = New System.Drawing.Point(4, 626)
-        Me.lbl_twenty_third.Name = "lbl_twenty_third"
-        Me.lbl_twenty_third.Size = New System.Drawing.Size(37, 17)
-        Me.lbl_twenty_third.TabIndex = 32
-        Me.lbl_twenty_third.Text = "23rd"
-        '
-        'lbl_twenty_fourth
-        '
-        Me.lbl_twenty_fourth.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.lbl_twenty_fourth.AutoSize = True
-        Me.lbl_twenty_fourth.Location = New System.Drawing.Point(4, 654)
-        Me.lbl_twenty_fourth.Name = "lbl_twenty_fourth"
-        Me.lbl_twenty_fourth.Size = New System.Drawing.Size(36, 17)
-        Me.lbl_twenty_fourth.TabIndex = 33
-        Me.lbl_twenty_fourth.Text = "24th"
-        '
         'lbl_wins_team1
         '
         Me.lbl_wins_team1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lbl_wins_team1.AutoSize = True
-        Me.lbl_wins_team1.Location = New System.Drawing.Point(253, 32)
+        Me.lbl_wins_team1.Location = New System.Drawing.Point(253, 40)
         Me.lbl_wins_team1.Name = "lbl_wins_team1"
         Me.lbl_wins_team1.Size = New System.Drawing.Size(16, 17)
         Me.lbl_wins_team1.TabIndex = 34
@@ -2657,7 +2221,7 @@ Partial Class leaguetable
         '
         Me.Label2.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(253, 59)
+        Me.Label2.Location = New System.Drawing.Point(253, 72)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(16, 17)
         Me.Label2.TabIndex = 35
@@ -2667,7 +2231,7 @@ Partial Class leaguetable
         '
         Me.Label4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(253, 113)
+        Me.Label4.Location = New System.Drawing.Point(253, 136)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(16, 17)
         Me.Label4.TabIndex = 36
@@ -2677,7 +2241,7 @@ Partial Class leaguetable
         '
         Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(253, 140)
+        Me.Label5.Location = New System.Drawing.Point(253, 168)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(16, 17)
         Me.Label5.TabIndex = 37
@@ -2687,7 +2251,7 @@ Partial Class leaguetable
         '
         Me.Label6.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(253, 167)
+        Me.Label6.Location = New System.Drawing.Point(253, 200)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(16, 17)
         Me.Label6.TabIndex = 38
@@ -2697,7 +2261,7 @@ Partial Class leaguetable
         '
         Me.Label7.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(253, 194)
+        Me.Label7.Location = New System.Drawing.Point(253, 232)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(16, 17)
         Me.Label7.TabIndex = 39
@@ -2707,7 +2271,7 @@ Partial Class leaguetable
         '
         Me.Label8.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(253, 221)
+        Me.Label8.Location = New System.Drawing.Point(253, 264)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(16, 17)
         Me.Label8.TabIndex = 40
@@ -2717,7 +2281,7 @@ Partial Class leaguetable
         '
         Me.Label9.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(253, 248)
+        Me.Label9.Location = New System.Drawing.Point(253, 296)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(16, 17)
         Me.Label9.TabIndex = 41
@@ -2727,7 +2291,7 @@ Partial Class leaguetable
         '
         Me.Label10.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(253, 275)
+        Me.Label10.Location = New System.Drawing.Point(253, 328)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(16, 17)
         Me.Label10.TabIndex = 42
@@ -2737,7 +2301,7 @@ Partial Class leaguetable
         '
         Me.Label11.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(253, 302)
+        Me.Label11.Location = New System.Drawing.Point(253, 360)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(16, 17)
         Me.Label11.TabIndex = 43
@@ -2747,7 +2311,7 @@ Partial Class leaguetable
         '
         Me.Label12.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(253, 329)
+        Me.Label12.Location = New System.Drawing.Point(253, 392)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(16, 17)
         Me.Label12.TabIndex = 44
@@ -2757,7 +2321,7 @@ Partial Class leaguetable
         '
         Me.Label13.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(297, 32)
+        Me.Label13.Location = New System.Drawing.Point(297, 40)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(16, 17)
         Me.Label13.TabIndex = 45
@@ -2767,7 +2331,7 @@ Partial Class leaguetable
         '
         Me.Label25.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(473, 59)
+        Me.Label25.Location = New System.Drawing.Point(473, 72)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(16, 17)
         Me.Label25.TabIndex = 56
@@ -2777,7 +2341,7 @@ Partial Class leaguetable
         '
         Me.Label19.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(520, 59)
+        Me.Label19.Location = New System.Drawing.Point(526, 72)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(16, 17)
         Me.Label19.TabIndex = 50
@@ -2787,7 +2351,7 @@ Partial Class leaguetable
         '
         Me.Label37.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label37.AutoSize = True
-        Me.Label37.Location = New System.Drawing.Point(341, 113)
+        Me.Label37.Location = New System.Drawing.Point(341, 136)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(16, 17)
         Me.Label37.TabIndex = 68
@@ -2797,7 +2361,7 @@ Partial Class leaguetable
         '
         Me.Label36.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(385, 113)
+        Me.Label36.Location = New System.Drawing.Point(385, 136)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(16, 17)
         Me.Label36.TabIndex = 67
@@ -2807,7 +2371,7 @@ Partial Class leaguetable
         '
         Me.Label35.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(429, 113)
+        Me.Label35.Location = New System.Drawing.Point(429, 136)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(16, 17)
         Me.Label35.TabIndex = 66
@@ -2817,7 +2381,7 @@ Partial Class leaguetable
         '
         Me.Label28.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(473, 113)
+        Me.Label28.Location = New System.Drawing.Point(473, 136)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(16, 17)
         Me.Label28.TabIndex = 59
@@ -2827,7 +2391,7 @@ Partial Class leaguetable
         '
         Me.lbl_team1.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.lbl_team1.AutoSize = True
-        Me.lbl_team1.Location = New System.Drawing.Point(48, 32)
+        Me.lbl_team1.Location = New System.Drawing.Point(48, 40)
         Me.lbl_team1.Name = "lbl_team1"
         Me.lbl_team1.Size = New System.Drawing.Size(39, 17)
         Me.lbl_team1.TabIndex = 224
@@ -2898,10 +2462,6 @@ Partial Class leaguetable
     Friend WithEvents lbl_eighteenth As Label
     Friend WithEvents lbl_nineteenth As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents lbl_twenty_first As Label
-    Friend WithEvents lbl_twenty_second As Label
-    Friend WithEvents lbl_twenty_third As Label
-    Friend WithEvents lbl_twenty_fourth As Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents lbl_wins_team1 As Label
@@ -2915,36 +2475,8 @@ Partial Class leaguetable
     Friend WithEvents Label10 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents Label192 As Label
-    Friend WithEvents Label181 As Label
-    Friend WithEvents Label182 As Label
-    Friend WithEvents Label183 As Label
-    Friend WithEvents Label184 As Label
-    Friend WithEvents Label186 As Label
-    Friend WithEvents Label187 As Label
-    Friend WithEvents Label188 As Label
-    Friend WithEvents Label189 As Label
-    Friend WithEvents Label190 As Label
-    Friend WithEvents Label191 As Label
-    Friend WithEvents Label170 As Label
-    Friend WithEvents Label171 As Label
-    Friend WithEvents Label172 As Label
-    Friend WithEvents Label173 As Label
-    Friend WithEvents Label174 As Label
-    Friend WithEvents Label175 As Label
-    Friend WithEvents Label176 As Label
-    Friend WithEvents Label178 As Label
-    Friend WithEvents Label179 As Label
-    Friend WithEvents Label180 As Label
     Friend WithEvents Label159 As Label
     Friend WithEvents Label160 As Label
-    Friend WithEvents Label162 As Label
-    Friend WithEvents Label163 As Label
-    Friend WithEvents Label164 As Label
-    Friend WithEvents Label165 As Label
-    Friend WithEvents Label166 As Label
-    Friend WithEvents Label167 As Label
-    Friend WithEvents Label168 As Label
     Friend WithEvents Label148 As Label
     Friend WithEvents Label149 As Label
     Friend WithEvents Label150 As Label
@@ -3078,10 +2610,6 @@ Partial Class leaguetable
     Friend WithEvents lbl_team18 As Label
     Friend WithEvents lbl_team19 As Label
     Friend WithEvents lbl_team20 As Label
-    Friend WithEvents lbl_team21 As Label
-    Friend WithEvents lbl_team22 As Label
-    Friend WithEvents lbl_team23 As Label
-    Friend WithEvents lbl_team24 As Label
     Friend WithEvents lbl_team9 As Label
     Friend WithEvents lbl_team10 As Label
     Friend WithEvents lbl_team11 As Label
