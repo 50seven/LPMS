@@ -9,7 +9,7 @@ Public Class leaguecreation
     Inherits System.Windows.Forms.Form
     Dim ranktext(20) As TextBox
     Dim count As Long
-    Dim teams As String = "C:\Users\ker0017\Documents\School\Year 12\Software Development\Unit 3\LPMS\LPMS\bin\Debug\teams.txt"
+    Dim teams As String = "teams.txt"
     Dim countrank As Integer
     Dim notnum As Boolean
 
